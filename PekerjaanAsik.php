@@ -24,15 +24,6 @@
 							
 					}
 					
-	/**				if($_SESSION["user_id"] == "0"){
-						$boolean="false";
-							
-								echo "var node = document.createElement('P');";
-								echo "var textnode = document.createTextNode('Anda harus login sebagai pencariPekerjaAsik');";
-								echo "node.appendChild(textnode);";
-								echo "document.getElementById('createPostPeringatan').appendChild(node);";
-					}
-*/
 					?>
 					var boolean = "<?php echo $boolean; ?>";
 					

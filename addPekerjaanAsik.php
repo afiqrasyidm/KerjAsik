@@ -21,7 +21,7 @@
 			  <label>Lokasi</label>
 			  <input type="text" name="lokasi" required></input><br/>
 			  <label>Foto</label>
-			  <input type="file" name="foto" />
+			  <input type="file" name="file" />
 			  
 			  
 			  <button   type="submit" class="btn btn-default">Submit</button>

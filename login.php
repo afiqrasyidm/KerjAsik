@@ -14,7 +14,6 @@
 			
 			
 				$_SESSION["userlogin"] = $_POST["username"];
-				//$_SESSION["user_id"] = $user_id;
 		?>
 				 <script> location.replace("index.php"); </script>
 		<?php

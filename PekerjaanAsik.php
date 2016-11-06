@@ -13,7 +13,7 @@
 					<?php
 		
 					$boolean="true";
-					if(!isset($_SESSION["userlogin"])){
+					if(!isset($_SESSION["userlogin"]) or $_SESSION["user_id"] == "0"){
 							
 								$boolean="false";
 							
@@ -24,7 +24,7 @@
 							
 					}
 					
-					if($_SESSION["user_id"]=="0"){
+	/**				if($_SESSION["user_id"] == "0"){
 						$boolean="false";
 							
 								echo "var node = document.createElement('P');";
@@ -32,7 +32,7 @@
 								echo "node.appendChild(textnode);";
 								echo "document.getElementById('createPostPeringatan').appendChild(node);";
 					}
-
+*/
 					?>
 					var boolean = "<?php echo $boolean; ?>";
 					

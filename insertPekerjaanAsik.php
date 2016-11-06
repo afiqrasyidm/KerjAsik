@@ -1,11 +1,12 @@
-<?php
-include 'database.php';
-session_start();
 
-$id="";
-$username = $_SESSION["userlogin"];
+
+<?php
+session_start();
+include 'database.php';
+
 $conn = connectDB();
-$sql = "SELECT id FROM Pencari_Pekerja_Asik WHERE username='$username'";
+//dibikin satu aja karena login belum diimplementasikan
+$sql = "SELECT id FROM Pencari_Pekerja_Asik WHERE id=1'";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 $id = $row["id"];
@@ -45,7 +46,7 @@ VALUES('$id', '$deskripsi', '$buka', '$tutup', '$lokasi', '$jumlahPekerja', '$ju
 
  $result = mysqli_query($conn, $sql);
  $conn->close();
-header("Location:PekerjaanAsik.php");
+header("Location:kumpulanlowongan.php");
 }
 /**if(isset($_POST['motivasi']))
 {    

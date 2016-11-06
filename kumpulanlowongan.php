@@ -1,4 +1,5 @@
 <?php include 'header.php';?>
+<?php include 'database.php';?>
 	<!-- START PAGE SECTION -->
 			<section id="single-page" class="section with-arrow">
 				<!-- SECTION TITLE -->

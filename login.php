@@ -14,7 +14,7 @@
 			
 			
 				$_SESSION["userlogin"] = $_POST["username"];
-				$_SESSION["user_id"] = $user_id;
+				//$_SESSION["user_id"] = $user_id;
 		?>
 				 <script> location.replace("index.php"); </script>
 		<?php
@@ -46,14 +46,14 @@
 		//kalau 0 dia itu pekerja asik kalau 1 pencari pekerjaan asik		
 		if($result->num_rows > 0){
 			$row = mysqli_fetch_assoc($result);
-			$user_id=1;
+			$_SESSION["user_id"] = "1";
 			$conn->close();
 			return true;
 		
 		}
 		if($resultPekerjaAsik->num_rows > 0){
 			$row = mysqli_fetch_assoc($result);
-			$user_id=0;
+			$_SESSION["user_id"] = "0";
 			$conn->close();
 			return true;
 		}

@@ -37,7 +37,7 @@
 							<ul id="menu">
 								<li><a href="index.php">Home</a></li>
 								<li><a href="kumpulanlowongan.php">Pekerjaan Asik</a></li>
-								<li><a href="createPostPencariPekerjaAsik.php">Buat Pekerjaan Asik</a></li>
+								<li><a href="addPekerjaanasik.php">Buat Pekerjaan Asik</a></li>
 								<li><a href="#contact">Contact</a></li>
 							</ul>
 						</nav>

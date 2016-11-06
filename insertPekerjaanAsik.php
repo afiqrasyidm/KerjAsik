@@ -22,9 +22,8 @@ $lokasi = $_POST["lokasi"];
 //yang foto belum dimasukin
 
 $conn = connectDB();
-$sql="INSERT INTO Pekerjaan_Asik (id_pencari_pekerja_asik, deskripsi, tanggal_buka_daftar, tanggal_tutup_daftar, lokasi, jumlah_pekerja, judul  )
-VALUES('$id', '$deskripsi', '$buka', '$tutup', '$lokasi', '$jumlahPekerja', '$judul')";
-
+  $sql="INSERT INTO Pekerjaan_Asik (id_pencari_pekerja_asik, deskripsi, tanggal_buka_daftar, tanggal_tutup_daftar, lokasi, jumlah_pekerja, judul, foto_iklan )
+VALUES('$id', '$deskripsi', '$buka', '$tutup', '$lokasi', '$jumlahPekerja', '$judul','$final_file')";
  $result = mysqli_query($conn, $sql);
  $conn->close();
 header("Location:PekerjaanAsik.php");

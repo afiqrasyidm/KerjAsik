@@ -1,66 +1,28 @@
-
-<footer>
-    <div class="container">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center   wow fadeInUp animated">
-                    <div class="social">
-                        <h2>Follow Me on Here</h2>
-                        <ul class="icon_list">
-                            <li><a href="#"target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"target="_blank"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"target="_blank"><i class="fa fa-dribbble"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="copyright_text   wow fadeInUp animated">
-                        <p>&copy; brandy 2015.All Right Reserved By <a href="http://www.themeforest.net/user/thecodecafe"target="_blank">Code Cafe Team</a></p>
-                        <p>Made with love for creative people.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
-
-
-
-
-
-
-
-
-
-
-<!-- =========================
-     SCRIPTS 
-============================== -->
-
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/script.js"></script>
-
-
-
-
-
-</body>
-
+		
+			<!-- START FOOTER SECTION -->
+			<section id="footer" class="section section-full-colored">
+				<div class="section-content center">
+					<p>Juntos - Design & Development by <a href="#">2F</a></p>
+				</div>
+			</section>
+			<!-- END FOOTER SECTION -->
+		</div>
+		<!-- END MAIN CONTAINER -->
+		
+		<!-- PAGE LOADING-->
+		<div id="loader"></div>
+  	</div>
+    <!-- SCRIPTS -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+	<script src="js/alert.js"></script>
+	<script src="js/jquery.sequence-min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.smoothscroll.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+  <!-- END BODY -->
 </html>

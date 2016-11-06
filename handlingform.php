@@ -1,4 +1,119 @@
-<?php include 'header.php';?>
+<?php
+//set your email here:
+$yourEmail = 'youremail@something.com';
+/*
+ * CONTACT FORM
+ */
+//If the form is submitted
+if(isset($_POST['submitted'])) { 
+    //Check to make sure that the name field is not empty
+    if($_POST['contact_name'] === '') { 
+            $hasError = true;
+    } else {
+            $name = $_POST['contact_name'];
+    }
+
+    //Check to make sure sure that a valid email address is submitted
+    if($_POST['contact_email'] === '')  { 
+            $hasError = true;
+    } else if (!preg_match("/^[a-z0-9]+([_\\.-][a-z0-9]+)*@([a-z0-9]+([\.-][a-z0-9]+)*)+\\.[a-z]{2,}$/i", $_POST['contact_email'])) {
+            $hasError = true;
+    } else {
+            $email = $_POST['contact_email'];
+    }
+
+    //Check to make sure comments were entered	
+    if($_POST['contact_textarea'] === '') {
+            $hasError = true;
+    } else {
+            if(function_exists('stripslashes')) {
+                    $comments = stripslashes($_POST['contact_textarea']);
+            } else {
+                    $comments = $_POST['contact_textarea'];
+            }
+    }
+
+    //If there is no error, send the email
+    if(!isset($hasError)) {
+
+            $emailTo = $yourEmail;
+            $subject = "Message From Your Website";
+            $body = "Name: $name \n\nEmail: $email \n\nComments: $comments";
+            $headers = 'From : my site <'.$emailTo.'>' . "\r\n" . 'answer to : ' . $email;
+
+            mail($emailTo, $subject, $body, $headers);
+
+            $emailSent = true; 
+    }
+    
+}
+?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- PAGE TITLE -->
+    <title>Juntos - Charity & Association Template</title>
+    <!-- MAKE IT RESPONSIVE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- MAIN STYLE -->
+    <link href="css/customize.css" rel="stylesheet" media="screen">
+    <link href="style.css" rel="stylesheet" media="screen">
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <!-- START BODY -->
+  <body>
+	<div id="page">
+		<!-- PHP ALERTS FROM THE FORMS -->
+	  <?php if(isset($emailSent) && $emailSent == true) { ?>
+	        <div class="alert-success alert" >
+	            <a class="close icon" data-dismiss="alert" href="#"><span class="icon icon-close"></span></a>
+	            <strong><?php echo'Thanks, '. $name  .'.';?></strong>
+	                <p><?php echo'Your message was sent successfully. You will receive a response shortly.'; ?></p>
+	        </div><!-- .alert -->
+	    <?php } ?>
+	    <?php if(isset($hasError) && $hasError == true) { ?>
+	        <div class="alert-danger alert">
+	            <a class="close icon" data-dismiss="alert" href="#"><span class="icon icon-close"></span></a>
+	            <strong><?php echo'Sorry,'; ?></strong>
+	                <p><?php echo'Your message can\'t be send...check if your email is correct otherwise a field is missing...'; ?></p>
+	        </div><!-- .alert -->
+	    <?php } ?>
+	    <!-- END ALERT -->
+		<!-- START MAIN CONTAINER -->
+		<div id="main-container">
+		
+			<!-- START NAVIGATION -->
+			<div class="sticky-wrapper">
+				<nav id="navigation">
+					<div class="container">
+						<!-- LOGO GOES HERE -->
+						<a href="#" id="logo"><img src="images/logo.png" alt="Logo Image"></a>
+						<!-- MENU -->
+						<nav>
+							<ul id="menu">
+								<li><a href="#project">Project</a></li>
+								<li><a href="#team">Team</a></li>
+								<li><a href="#services">Services</a></li>
+								<li><a href="#gallery">Gallery</a></li>
+								<li><a href="#events">Events</a></li>
+								<li><a href="#blog">Blog</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<li><a href="#donation" class="btn btn-success">Donation</a></li>
+							</ul>
+						</nav>
+					</div>
+				</nav>
+			</div>
 			<!-- END NAVIGATION -->
 			
 			<!-- START PROJECT SECTION -->
@@ -568,5 +683,32 @@
 				</div>
 			</section>
 			<!-- END CONTACT SECTION -->
+			
+			<!-- START FOOTER SECTION -->
+			<section id="footer" class="section section-full-colored">
+				<div class="section-content center">
+					<p>Juntos - Design & Development by <a href="http://2f-design.fr">2F</a></p>
+				</div>
+			</section>
+			<!-- END FOOTER SECTION -->
 		
-<?php include 'footer.php';?>
+		</div>
+		<!-- END MAIN CONTAINER -->
+		
+		<!-- PAGE LOADING-->
+		<div id="loader"></div>
+  	</div>
+    <!-- SCRIPTS -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+	<script src="js/alert.js"></script>
+	<script src="js/jquery.sequence-min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.smoothscroll.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+  <!-- END BODY -->
+</html>

@@ -80,7 +80,8 @@
 						
 	                    <li><a href="index.php">Home</a></li>
 	                    <li><a href="#SERVICE">Pemberi Beasiswa</a></li>
-	                    <li><a href="kumpulanPencariBeasiswa.php">Pencari Beasiswa</a></li>
+	                    <li><a href="PekerjaanAsik.php">Pekerjaan Asik</a></li>
+						
 						
 
 					

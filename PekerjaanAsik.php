@@ -1,7 +1,7 @@
 <?php include 'headerSelainIndex.php';?>
 	<div id="createPost">
 
-		<button  id="submitButtonPencariBeasiswa" type="button" class="btn btn-success">Buat Post TentangMu!</button>  
+		<button  id="submitButtonPencariBeasiswa" type="button" class="btn btn-success">Buat Pekerjaan Asik</button>  
 
 	<script>
 			var counter= true;
@@ -18,7 +18,7 @@
 								$boolean="false";
 							
 								echo "var node = document.createElement('P');";
-								echo "var textnode = document.createTextNode('Anda harus login sebagai pencari beasiswa');";
+								echo "var textnode = document.createTextNode('Anda harus login sebagai pencariPekerjaAsik');";
 								echo "node.appendChild(textnode);";
 								echo "document.getElementById('createPostPeringatan').appendChild(node);";
 							
@@ -31,7 +31,7 @@
 					
 					if(boolean === "true"){
 							
-							window.location.href='createPostPencariBeasiswa.php';
+							window.location.href='addPekerjaanAsik.php';
 						
 					}
 					else{
@@ -56,34 +56,28 @@
 	
 					
 					
-					disamain sama kerja asik
+					//disamain sama kerja asik
 					$conn = connectDB();
 		
-					
-	
+					$sql = "SELECT * FROM pekerjaan_Asik order by id desc";
+					$result = $conn->query($sql);
 						if ( mysqli_num_rows($result) > 0) {
 							// output data of each row
 							
 							while($row = mysqli_fetch_assoc($result)) {
 								//echo "id: " . $row["comment_id"]. " - Name: " . $row["name"]. " " . $row["email"];
 								//echo $row["content"]. "<br>";
-										echo "<div class= 'container pencariBeasiswa'>";
+										echo "<div class= 'container pekerjaanAsik'>";
+										echo "<h3 class='judul'>".$row["judul"]."</h3>";
 										echo "<div class= 'photoProfil'>";
-										echo "<img  class='images' src='images/1.png' alt='gambar' style='width:80px;height:70px;'>";
-										echo "<p>".$row["address"]."</p>";
-										echo "<p>".$row["phone"]."</p>";
-										echo "<p>".$row["email"]."</p>";
+										echo "<img  class='images' src='".$row["foto_iklan"]."' alt='gambar' style='width:80px;height:70px;'>";
 										echo "</div>";
-										echo "<p class='namaPanjang'>".$row["fullname"]."</p>";
-										echo "<div class= 'pendidikan'>";
-										echo "<p>(".$row["sekolah"].",<span>Jurusan :".$row["jurusan"]." , Semester:".$row["semester"].")</span> </p>";
-										echo "</div>";
-										echo "<div class= 'motivasi'>";
-										echo "<p>".$row["motivasi"]."</p>";
+										echo "<div class= 'deskripsi'>";
+										echo "<p>".$row["deskripsi"]."</p>";
 										echo "</div>";
 										
 										echo "</div>";
-										echo "</div>";
+										//echo "</div>";
 							}
 					
 						} else {

@@ -4,6 +4,7 @@
 
 	$valid="";
 	$user_id="";
+	$id="";
 	//$bol=false;
 	if(isset($_POST['username'])){
 			

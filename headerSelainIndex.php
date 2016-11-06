@@ -80,7 +80,7 @@
 						
 	                    <li><a href="index.php">Home</a></li>
 	                    <li><a href="pencariPekerjaAsik.php">Pencari Pekerja Asik</a></li>
-	                    <li><a href="kumpulanPostKerjAsik.php">Pekerjaan Asik</a></li>
+
 						
 
 					

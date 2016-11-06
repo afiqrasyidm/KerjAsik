@@ -80,9 +80,10 @@
 	                  <ul class="nav navbar-nav navbar-right">
 						
 	                    <li><a href="index.php">Home</a></li>
+
 	                    <li><a href="pencariPekerjaAsik.php">Pencari Pekerja Asik</a></li>
-	                    <li><a href="kumpulanPostKerjAsik.php">Pekerjaan Asik</a></li>
-						
+	                    <li><a href="PekerjaanAsik.php">Pekerjaan Asik</a></li>
+
 
 					
 					

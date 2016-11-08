@@ -15,7 +15,7 @@
 	
 					$conn = connectDB();
 				
-					$sql = "SELECT * FROM Pekerjaan_Asik ";
+					$sql = "SELECT * FROM Pekerjaan_Asik order by id desc";
 					$sql1 = "SELECT COUNT(*) FROM Pekerjaan_Asik ";
 					
 					$result = $conn->query($sql);
@@ -49,7 +49,7 @@
 													echo 	"<div class='event'>";
 														echo 	"<div class='event-header'>";
 															echo 	"<a href='single-event.html'>";
-																echo 	"<img src='images/event/1.jpg' alt='Event cover'>";
+																echo 	"<img  class='images' src='./uploads/".$row["foto_iklan"]."' alt='Gambar'>";
 																echo 	"</a>";
 																echo "</div>";
 															echo 	"<div class='event-content'>";

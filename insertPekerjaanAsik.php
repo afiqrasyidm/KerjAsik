@@ -35,13 +35,13 @@ $lokasi = $_POST["lokasi"];
  $new_file_name = strtolower($file);
  // make file name in lower case
  
- $final_file=str_replace(' ','-',$new_file_name);
+$final_file=str_replace(' ','-',$new_file_name);
 move_uploaded_file($file_loc,$folder.$final_file);
 
 $conn = connectDB();
 
 $sql="INSERT INTO Pekerjaan_Asik (id_pencari_pekerja_asik, deskripsi, tanggal_buka_daftar, tanggal_tutup_daftar, lokasi, jumlah_pekerja, judul, foto_iklan )
-VALUES('$id', '$deskripsi', '$buka', '$tutup', '$lokasi', '$jumlahPekerja', '$judul','$final_file')";
+VALUES('2', '$deskripsi', '$buka', '$tutup', '$lokasi', '$jumlahPekerja', '$judul','$final_file')";
 
 
  $result = mysqli_query($conn, $sql);

@@ -568,5 +568,11 @@
 				</div>
 			</section>
 			<!-- END CONTACT SECTION -->
+			
+			<div class="container">
+       
+       
+		
+		
 		
 <?php include 'footer.php';?>

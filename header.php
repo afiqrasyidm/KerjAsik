@@ -8,10 +8,17 @@
     <!-- MAKE IT RESPONSIVE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- BOOTSTRAP -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	
     <!-- MAIN STYLE -->
     <link href="css/customize.css" rel="stylesheet" media="screen">
-    <link href="style.css" rel="stylesheet" media="screen">
+    
+	<link href="css/login-register.css" rel="stylesheet" media="screen">
+    
+	<link href="style.css" rel="stylesheet" media="screen">
     <!-- FONTS -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
@@ -20,7 +27,9 @@
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
-  </head>
+   <script src="js/login-register.js"></script>
+	 
+	</head>
   <!-- START BODY -->
   <body>
 	<div id="page">
@@ -39,9 +48,106 @@
 								<li><a href="kumpulanlowongan.php">Pekerjaan Asik</a></li>
 								<li><a href="addPekerjaanasik.php">Buat Pekerjaan Asik</a></li>
 								<li><a href="#contact">Contact</a></li>
+				
+				
+							
+							
+							
+							
+									
+									<?php
+										session_start();
+										$username="";
+										if(isset($_SESSION["userlogin"])){
+											$logout = "logout";
+											$url = "index.php?logout=true";
+											$username = $_SESSION["userlogin"];
+											echo "<li><a href =".$url.">Logout(".$username.")</a></li>";
+										}
+										else{
+											$href = "javascript:void(0)";
+											$dataToggle = "modal";
+											$onClick ="openLoginModal()";
+											echo "<li><a data-toggle=".$dataToggle." href=".$href." onclick=".$onClick.">Login</a></li>";
+										}
+										
+									
+									?>
+									<?php 
+										if(isset($_GET["logout"])){
+											if($_GET['logout'] == 'true'){
+												header("Location: index.php");
+											
+												session_destroy(); 
+											}
+										}
+											
+									?>
+					
+												
+							
+							   <li class="dropdown">
+								  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sign-Up
+								  <span class="caret"></span></a>
+								  <ul class="dropdown-menu" id="dm">
+									<li ><a data-toggle="modal" href="javascript:void(0)" style="color:black;"  >Pekerja Asik</a></li>
+									<li><a id="dm2"  data-toggle="modal" href="javascript:void(0)" style="color:black;">Pencari Pekerja Asik</a></li>
+								  </ul>
+								</li>
+							
+							
+							
+							
+							
+							
+							
+							
+							
 							</ul>
 						</nav>
 					</div>
 				</nav>
+			
+			
+			
 			</div>
+	
+			 <div class="modal fade login" id="loginModal">
+		      <div class="modal-dialog login animated">
+    		      <div class="modal-content">
+    		         <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Login with</h4>
+                    </div>
+                    <div class="modal-body">  
+                        <div class="box">
+                             <div class="content">
+                                <div class="social">
+                                    <a class="circle github" href="/auth/github">
+                                        <i class="fa fa-github fa-fw"></i>
+                                    </a>
+                                    <a id="google_login" class="circle google" href="/auth/google_oauth2">
+                                        <i class="fa fa-google-plus fa-fw"></i>
+                                    </a>
+                                    <a id="facebook_login" class="circle facebook" href="/auth/facebook">
+                                        <i class="fa fa-facebook fa-fw"></i>
+                                    </a>
+                                </div>
+                                <div class="division">
+                                    <div class="line l"></div>
+                                      <span>or</span>
+                                    <div class="line r"></div>
+                                </div>
+                                <div class="error"></div>
+								<?php include 'login.php';?>
+                             </div>
+                        </div>
+
+						
+                    </div>
+    		      </div>
+		      </div>
+		  </div>
+    </div>
+			
 			

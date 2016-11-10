@@ -55,6 +55,11 @@ INSERT INTO Pekerja_Asik (fullname, no_hp, email, instansi, username, password, 
 VALUES('Ano Saja Tapi Pekerja', '08088', 'anto@anto.com', 'anto university', 'anto', 'anto', 'mahasiswa', '000', 'seorang mahasiswa yang bersemangat!');
 
 
+INSERT INTO Pekerja_Asik (fullname, no_hp, email, instansi, username, password, pekerjaan, nomor_rekening, deskripsi )
+VALUES('Ano Saja Tapi Pekerja', '08088', 'anto@anto.com', 'anto university', 'andi', 'andi', 'mahasiswa', '000', 'seorang mahasiswa yang bersemangat!');
+
+
+
 CREATE TABLE Pekerja_Yang_Mendaftar(
 
 	id INT(6)  AUTO_INCREMENT PRIMARY KEY,

@@ -11,7 +11,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
    
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+   <script src="js/login-register.js"></script>
+	
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	
     <!-- MAIN STYLE -->
     <link href="css/customize.css" rel="stylesheet" media="screen">
@@ -27,8 +29,7 @@
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
-   <script src="js/login-register.js"></script>
-	 
+   
 	</head>
   <!-- START BODY -->
   <body>
@@ -90,8 +91,8 @@
 								  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sign-Up
 								  <span class="caret"></span></a>
 								  <ul class="dropdown-menu" id="dm">
-									<li ><a data-toggle="modal" href="javascript:void(0)" style="color:black;"  >Pekerja Asik</a></li>
-									<li><a id="dm2"  data-toggle="modal" href="javascript:void(0)" style="color:black;">Pencari Pekerja Asik</a></li>
+									<li ><a data-toggle="modal" href="javascript:void(0)" style="color:black;"   onclick="openRegisterPemberiBeasiswaModal();" >Pekerja Asik</a></li>
+									<li><a id="dm2"  data-toggle="modal" href="javascript:void(0)" style="color:black;" onclick="openRegisterPencariBeasiswaModal();" >Pencari Pekerja Asik</a></li>
 								  </ul>
 								</li>
 							
@@ -112,7 +113,8 @@
 			
 			</div>
 	
-			 <div class="modal fade login" id="loginModal">
+			
+		 <div class="modal fade login" id="loginModal">
 		      <div class="modal-dialog login animated">
     		      <div class="modal-content">
     		         <div class="modal-header">
@@ -143,11 +145,14 @@
                              </div>
                         </div>
 
-						
+						 <?php include 'registerPekerjaAsik.php';?>      
+						 <?php include 'registerPencariPekerjaAsik.php';?>      
                     </div>
     		      </div>
 		      </div>
 		  </div>
-    </div>
+			
+	
+	</div>
 			
 			

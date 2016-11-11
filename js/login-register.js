@@ -14,7 +14,7 @@ function showRegisterPemberiBeasiswaForm(){
         $('.login-footer').fadeOut('fast',function(){
             $('.register-footer').fadeIn('fast');
         });
-        $('.modal-title').html('Register Pemberi Beasiswa');
+        $('.modal-title').html('Register Pekerja Asik');
     }); 
     $('.error').removeClass('alert alert-danger').html('');
        
@@ -26,7 +26,7 @@ function showRegisterPencariBeasiswaForm(){
         $('.login-footer').fadeOut('fast',function(){
             $('.register-footer').fadeIn('fast');
         });
-        $('.modal-title').html('Register Pencari Beasiswa');
+        $('.modal-title').html('Register Pencari Pekerja Asik');
     }); 
     $('.error').removeClass('alert alert-danger').html('');
        
@@ -52,7 +52,20 @@ function openLoginModal(){
     }, 230);
     
 }
-
+function openRegisterPemberiBeasiswaModal(){
+    showRegisterPemberiBeasiswaForm();
+    setTimeout(function(){
+        $('#loginModal').modal('show');    
+    }, 230);
+    
+}
+function openRegisterPencariBeasiswaModal(){
+    showRegisterPencariBeasiswaForm();
+    setTimeout(function(){
+        $('#loginModal').modal('show');    
+    }, 230);
+    
+}
 
 function loginAjax(){
     /*   Remove this comments when moving to server

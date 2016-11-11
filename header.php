@@ -3,7 +3,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <!-- PAGE TITLE -->
+   
+   
+   
+    
+   
+   <script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyDgxQoGWlSuoQ8lkYMM9x_r55ASnOVzFuc" async="" defer="defer" type="text/javascript"></script>
+   
+   
+   
+   
+   
+   <!-- PAGE TITLE -->
     <title>Juntos - Charity & Association Template</title>
     <!-- MAKE IT RESPONSIVE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,6 +41,8 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->
    
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
 	</head>
   <!-- START BODY -->
   <body>

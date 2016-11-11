@@ -48,7 +48,7 @@
 													echo 	"<div class='event'>";
 														echo 	"<div class='event-header'>";
 															echo 	"<a href='single-event.html'>";
-																echo 	"<img  class='images' src='./uploads/".$row["foto_iklan"]."' alt='Gambar'>";
+																echo 	"<img  class='images' src='./images/event/gerak_jalan.jpg' alt='Gambar'>";
 																echo 	"</a>";
 																echo "</div>";
 															echo 	"<div class='event-content'>";
@@ -59,7 +59,7 @@
 															echo 		"</div>";
 															echo 		"<p>".$row["deskripsi"]."</p>";
 															echo 		"<div class='center'>";
-															echo 			"<a href='single-event.html' class='btn btn-default'>Read More</a>";
+															echo 			"<a href='single-event.php' class='btn btn-default'>Read More</a>";
 															echo 		"</div>";
 															echo 	"</div>";
 														echo 	"</div>";

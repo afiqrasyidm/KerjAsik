@@ -16,8 +16,7 @@
 		<li class="animate-in" style="background-image: url('images/slider/2.gif');">
 			<div class="slide-content">
 				<h1>Apa itu Pekerjaan Asik</h1>
-				<h3>KerjAsik adalah website crowdsourcing yang mempertemukan para pembuat proyek sosial, acara,  perusahaan, peneliti dan lain sebagainya 
-					dengan para pekerja (Pekerja Asik) untuk saling membantu.
+				<h3> Pekerjaan asik merupakan pekerjaan yang tergolong singkat, mudah dikerjakan, dan bisa dikerjakan tanpa harus menghilangkan pekerjaan utama.
 					</h3>
 			</div>
 		</li>

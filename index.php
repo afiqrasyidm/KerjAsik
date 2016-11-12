@@ -15,9 +15,9 @@
 	    </li>
 		<li class="animate-in" style="background-image: url('images/slider/1.gif');">
 			<div class="slide-content">
-				<h1>Apa itu pekerjaan asik?</h1>
-				<h3>Describe here your project in a few sentences, to explain to your visitors what you're doing and what you need their help, 
-				or maybe something else </h3>
+				<h1>Apa itu Pekerjaan Asik</h1>
+				<h3> Pekerjaan asik merupakan pekerjaan yang tergolong singkat, mudah dikerjakan, dan bisa dikerjakan tanpa harus menghilangkan pekerjaan utama.
+					</h3>
 			</div>
 		</li>
 	</ul>
@@ -199,9 +199,8 @@
 		<!-- SECTION CONTENT -->
 		<div class="section-content section-no-top-padding">
 			<div class="container">
-				<h3>We are <span class="colored">64</span> volunteers, All members of <span class="colored">Association Name</span>. Our association find funds,
-				in the purpose of fighting <span class="colored">Your Causes here</span>. We already performed <span class="colored">17</span> projects in 5 continents 
-				during the last <span class="colored">5 years</span>.
+				<h3>KerjAsik adalah website crowdsourcing yang mempertemukan para pembuat proyek sosial, acara,  perusahaan, peneliti dan lain sebagainya 
+					dengan para pekerja (Pekerja Asik) untuk saling membantu
 				</h3>
 				<a href="bantuan.php" class="btn btn-default">Hubungi Kami</a>
 			</div>
@@ -213,7 +212,7 @@
 	<section id="services" class="section section-full-colored">
 		<!-- SECTION TITLE -->
 		<div class="section-header">
-			<h1>Apa yang bisa dilakukan di KerjAsik?</h1>
+			<h1>Apa dilakukan di KerjAsik?</h1>
 			<hr>
 		</div>
 		<!-- SECTION CONTENT -->
@@ -224,40 +223,34 @@
 						<!-- START SERVICE -->
 						<li>
 							<div class="slide">
-								<span class="icon icon-large icon-glass"></span>
-								<h3>Reception</h3>
-								<p>Here it's just an example of the activities that you can do with your charity to get funds. Or something else...</p>
+								<span class="icon icon-large icon-thumbs-up"></span>
+								<h3>Pekerjaan Asik</h3>
+								<p>Disini banyak pekerjaan yang mudah dan cepat, sehingga pekerjaan yang kamu lakukan dijamin asik dan menyenangkan!</p>
 							</div>
 						</li>
 						<!-- END SERVICE -->
 						<li>
 							<div class="slide">
-								<span class="icon icon-large icon-users2"></span>
-								<h3>Babysitting</h3>
-								<p>Here it's just an example of the activities that you can do with your charity to get funds. Or something else...</p>
+								<span  class="fa fa-usd fa-2x" aria-hidden="true" ></span>
+								<h3>Dapat Uang</h3>
+								<p>Dengan mendaftar salah satu pekerjaan kamu bisa mendapatkan uang dengan mudah dan menyenangkan</p>
 							</div>
 						</li>
 						<li>
 							<div class="slide">
-								<span class="icon icon-large  icon-leaf"></span>
-								<h3>Gardening</h3>
-								<p>Here it's just an example of the activities that you can do with your charity to get funds. Or something else...</p>
+								<span class="fa fa-users fa-2x" aria-hidden="true"></span>
+								<h3>Gotong Royong</h3>
+								<p>Kamu bisa menyelesaikan pekerjaan besar dengan cepat dan mudah secara bersama-sama</p>
 							</div>
 						</li>
 						<li>
 							<div class="slide">
-								<span class="icon icon-large icon-gift"></span>
-								<h3>Gift Wrapping</h3>
-								<p>Here it's just an example of the activities that you can do with your charity to get funds. Or something else...</p>
+								<span class="icon icon-large icon-briefcase"> </span>
+								<h3>Kunci Bisnis</h3>
+								<p>Dengan KerjAsik kamu juga bisa memasarkan dan memvalidasi produkmu secara kreatif dan tepat sasaran</p>
 							</div>
 						</li>
-						<li>
-							<div class="slide">
-								<span class="icon icon-large icon-coin"></span>
-								<h3>Sale</h3>
-								<p>Here it's just an example of the activities that you can do with your charity to get funds. Or something else...</p>
-							</div>
-						</li>
+						
 					</ul>
 				</div>
 			</div>

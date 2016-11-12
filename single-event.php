@@ -47,7 +47,7 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 										</div>
 
 										<div id="daftar" >
-											<a  href="#" class="btn btn-default widget-btn">Daftar</a>
+											<a  href="selamat.php" class="btn btn-default widget-btn">Ikut</a>
 										</div>
 									
 									</div>

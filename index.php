@@ -4,20 +4,20 @@
 	<span class="sequence-prev" ></span>
 	<span class="sequence-next" ></span>
 	<ul class="sequence-canvas">
-	    <li class="animate-in" style="background-image: url('images/slider/1.gif');">
+	    <li class="animate-in" style="background-image: url('images/slider/3.gif');">
 		   	<div class="slide-content">
 				<div class="center">
 					<h1>Disini semuanya asik</h1>
 					<h2>Tak ada kerjaan seasik ini!</h2>					
-					<a href="kumpulanlowongan.php" class="btn btn-default"><h4>Cari Pekerjaan Asik</h4></a>				
+					<a href="kumpulanlowongan.php" class="btn btn-default"><h4 style="color:white; font-weight:bolder;">Cari Pekerjaan Asik</h4></a>				
 				</div>
 		   	</div>
 	    </li>
-		<li class="animate-in" style="background-image: url('images/slider/2.gif');">
+		<li class="animate-in" style="background-image: url('images/slider/1.gif');">
 			<div class="slide-content">
-				<h1>Apa itu pekerjaan asik?</h1>
-				<h3>Describe here your project in a few sentences, to explain to your visitors what you're doing and what you need their help, 
-				or maybe something else </h3>
+				<h1>Apa itu Pekerjaan Asik</h1>
+				<h3> Pekerjaan asik merupakan pekerjaan yang tergolong singkat, mudah dikerjakan, dan bisa dikerjakan tanpa harus menghilangkan pekerjaan utama.
+					</h3>
 			</div>
 		</li>
 	</ul>
@@ -47,45 +47,23 @@
 								<div class="post post-normal">
 									<!-- FEATURED IMAGE -->
 									<div class="post-header">
-										<a href="single-blog.html">
-											<img src="images/blog/1.jpg" alt="Blog cover">
+										<a href="single-event.php">
+											<img src="images/event/gerak_jalan.jpg" alt="Blog cover">
 										</a>
 									</div>
 									<div class="post-content">
 										<!-- TITLE -->
-										<h3>Post Title</h3>
+										<h3>Gerak Jalan Santai di Depok</h3>
 										<!-- DATE -->
 										<div class="post-data">
-											<p><span class="icon icon-clock"></span> December 25, 2013</p>
+											<p><span class="icon icon-clock"></span> 25 Desember 2013</p>
+											<p><span class='icon icon-location'></span>Kota Bandung</p>
 										</div>
 										<!-- CONTENT -->
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec placerat sem. 
 										Vestibulum vel tristique purus. In hac habitasse platea dictumst. Suspendisse eget pellentesque dui...</p>
 										<div class="center">
-											<a href="single-blog.html" class="btn btn-default">Read More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<!-- END BLOG POST -->
-						<li>
-							<div class="slide">
-								<div class="post post-normal">
-									<div class="post-header">
-										<a href="single-blog.html">
-											<img src="images/blog/2.jpg" alt="Blog cover">
-										</a>
-									</div>
-									<div class="post-content">
-										<h3>Post Title</h3>
-										<div class="post-data">
-											<p><span class="icon icon-clock"></span> January 2, 2014</p>
-										</div>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec placerat sem. 
-										Vestibulum vel tristique purus. In hac habitasse platea dictumst. Suspendisse eget pellentesque dui...</p>
-										<div class="center">
-											<a href="single-blog.html" class="btn btn-default">Read More</a>
+											<a href="#" class="btn btn-default">Ikut</a>
 										</div>
 									</div>
 								</div>
@@ -94,20 +72,25 @@
 						<li>
 							<div class="slide">
 								<div class="post post-normal">
+									<!-- FEATURED IMAGE -->
 									<div class="post-header">
-										<a href="#">
-											<img src="images/blog/3.jpg" alt="Blog cover">
+										<a href="single-event.php">
+											<img src="images/event/gerak_jalan_2.jpg" alt="Blog cover">
 										</a>
 									</div>
 									<div class="post-content">
-										<h3>Post Title</h3>
+										<!-- TITLE -->
+										<h3>Gerak Jalan Santai saat Car Free Day</h3>
+										<!-- DATE -->
 										<div class="post-data">
-											<p><span class="icon icon-clock"></span> January 12, 2014</p>
+											<p><span class="icon icon-clock"></span> 25 Januari 2013</p>
+											<p><span class='icon icon-location'></span>Jakarta</p>
 										</div>
+										<!-- CONTENT -->
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec placerat sem. 
 										Vestibulum vel tristique purus. In hac habitasse platea dictumst. Suspendisse eget pellentesque dui...</p>
 										<div class="center">
-											<a href="single-blog.html" class="btn btn-default">Read More</a>
+											<a href="#" class="btn btn-default">Ikut</a>
 										</div>
 									</div>
 								</div>
@@ -116,25 +99,84 @@
 						<li>
 							<div class="slide">
 								<div class="post post-normal">
+									<!-- FEATURED IMAGE -->
 									<div class="post-header">
-										<a href="single-blog.html">
-											<img src="images/blog/4.jpg" alt="Blog cover">
+										<a href="single-event.php">
+											<img src="images/event/pembersihan_sungai.jpg" alt="Blog cover">
 										</a>
 									</div>
 									<div class="post-content">
-										<h3>Post Title</h3>
+										<!-- TITLE -->
+										<h3>Pembersihan kali ciliwung</h3>
+										<!-- DATE -->
 										<div class="post-data">
-											<p><span class="icon icon-clock"></span> February 22, 2014</p>
+											<p><span class="icon icon-clock"></span> 25 Desember 2013</p>
+											<p><span class='icon icon-location'></span>Jakarta</p>
 										</div>
+										<!-- CONTENT -->
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec placerat sem. 
 										Vestibulum vel tristique purus. In hac habitasse platea dictumst. Suspendisse eget pellentesque dui...</p>
 										<div class="center">
-											<a href="single-blog.html" class="btn btn-default">Read More</a>
+											<a href="#" class="btn btn-default">Ikut</a>
 										</div>
 									</div>
 								</div>
 							</div>
-						</li>						
+						</li>
+						<li>
+							<div class="slide">
+								<div class="post post-normal">
+									<!-- FEATURED IMAGE -->
+									<div class="post-header">
+										<a href="single-event.php">
+											<img src="images/event/gerak_jalan.jpg" alt="Blog cover">
+										</a>
+									</div>
+									<div class="post-content">
+										<!-- TITLE -->
+										<h3>Gerak Jalan Santai di Depok</h3>
+										<!-- DATE -->
+										<div class="post-data">
+											<p><span class="icon icon-clock"></span> 25 Desember 2013</p>
+											<p><span class='icon icon-location'></span>Kota Bandung</p>
+										</div>
+										<!-- CONTENT -->
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec placerat sem. 
+										Vestibulum vel tristique purus. In hac habitasse platea dictumst. Suspendisse eget pellentesque dui...</p>
+										<div class="center">
+											<a href="#" class="btn btn-default">Ikut</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="slide">
+								<div class="post post-normal">
+									<!-- FEATURED IMAGE -->
+									<div class="post-header">
+										<a href="single-event.php">
+											<img src="images/event/1000pohon.jpg" alt="Blog cover">
+										</a>
+									</div>
+									<div class="post-content">
+										<!-- TITLE -->
+										<h3>Aksi Tanam 1000 Pohon di Bali</h3>
+										<!-- DATE -->
+										<div class="post-data">
+											<p><span class="icon icon-clock"></span> 25 Desember 2013</p>
+											<p><span class='icon icon-location'></span>Bali</p>
+										</div>
+										<!-- CONTENT -->
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec placerat sem. 
+										Vestibulum vel tristique purus. In hac habitasse platea dictumst. Suspendisse eget pellentesque dui...</p>
+										<div class="center">
+											<a href="#" class="btn btn-default">Ikut</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
 					</ul>
 				</div>
 				<!-- SECTION BUTTON -->
@@ -157,9 +199,8 @@
 		<!-- SECTION CONTENT -->
 		<div class="section-content section-no-top-padding">
 			<div class="container">
-				<h3>We are <span class="colored">64</span> volunteers, All members of <span class="colored">Association Name</span>. Our association find funds,
-				in the purpose of fighting <span class="colored">Your Causes here</span>. We already performed <span class="colored">17</span> projects in 5 continents 
-				during the last <span class="colored">5 years</span>.
+				<h3>KerjAsik adalah website crowdsourcing yang mempertemukan para pembuat proyek sosial, acara,  perusahaan, peneliti dan lain sebagainya 
+					dengan para pekerja (Pekerja Asik) untuk saling membantu
 				</h3>
 				<a href="bantuan.php" class="btn btn-default">Hubungi Kami</a>
 			</div>
@@ -171,7 +212,7 @@
 	<section id="services" class="section section-full-colored">
 		<!-- SECTION TITLE -->
 		<div class="section-header">
-			<h1>Apa yang bisa dilakukan di KerjAsik?</h1>
+			<h1>Apa dilakukan di KerjAsik?</h1>
 			<hr>
 		</div>
 		<!-- SECTION CONTENT -->
@@ -182,40 +223,34 @@
 						<!-- START SERVICE -->
 						<li>
 							<div class="slide">
-								<span class="icon icon-large icon-glass"></span>
-								<h3>Reception</h3>
-								<p>Here it's just an example of the activities that you can do with your charity to get funds. Or something else...</p>
+								<span class="icon icon-large icon-thumbs-up"></span>
+								<h3>Pekerjaan Asik</h3>
+								<p>Disini banyak pekerjaan yang mudah dan cepat, sehingga pekerjaan yang kamu lakukan dijamin asik dan menyenangkan!</p>
 							</div>
 						</li>
 						<!-- END SERVICE -->
 						<li>
 							<div class="slide">
-								<span class="icon icon-large icon-users2"></span>
-								<h3>Babysitting</h3>
-								<p>Here it's just an example of the activities that you can do with your charity to get funds. Or something else...</p>
+								<span  class="fa fa-usd fa-2x" aria-hidden="true" ></span>
+								<h3>Dapat Uang</h3>
+								<p>Dengan mendaftar salah satu pekerjaan kamu bisa mendapatkan uang dengan mudah dan menyenangkan</p>
 							</div>
 						</li>
 						<li>
 							<div class="slide">
-								<span class="icon icon-large  icon-leaf"></span>
-								<h3>Gardening</h3>
-								<p>Here it's just an example of the activities that you can do with your charity to get funds. Or something else...</p>
+								<span class="fa fa-users fa-2x" aria-hidden="true"></span>
+								<h3>Gotong Royong</h3>
+								<p>Kamu bisa menyelesaikan pekerjaan besar dengan cepat dan mudah secara bersama-sama</p>
 							</div>
 						</li>
 						<li>
 							<div class="slide">
-								<span class="icon icon-large icon-gift"></span>
-								<h3>Gift Wrapping</h3>
-								<p>Here it's just an example of the activities that you can do with your charity to get funds. Or something else...</p>
+								<span class="icon icon-large icon-briefcase"> </span>
+								<h3>Kunci Bisnis</h3>
+								<p>Dengan KerjAsik kamu juga bisa memasarkan dan memvalidasi produkmu secara kreatif dan tepat sasaran</p>
 							</div>
 						</li>
-						<li>
-							<div class="slide">
-								<span class="icon icon-large icon-coin"></span>
-								<h3>Sale</h3>
-								<p>Here it's just an example of the activities that you can do with your charity to get funds. Or something else...</p>
-							</div>
-						</li>
+						
 					</ul>
 				</div>
 			</div>

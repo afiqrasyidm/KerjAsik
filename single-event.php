@@ -116,7 +116,6 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 					</div>
 				</div>
 			</section>
-			<!-- END TEAM SECTION -->
 			
 			
 <?php include 'footer.php';?>

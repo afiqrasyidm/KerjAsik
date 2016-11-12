@@ -6,6 +6,7 @@
 		$cek = "";
 	
 	
+	
 	if(isset($_POST['usernameBaru1'])){
 		//echo "asdasdsad";
 		$username = $_POST['usernameBaru1'];
@@ -16,55 +17,50 @@
 
 		$nomorHP = $_POST['nomorHP1'];
 
-		$formatBenar = true;
-		if(preg_match("/[0-9]/",$_POST["usernameBaru1"])){ 
-				$nameErr = "format nama salah"; 
-				$formatBenar = false;
+			header('Location: index.php');
 		
-		}
-		else if(preg_match("/[A-Z]/",$_POST["usernameBaru1"])){ 
-				$nameErr = "format nama "; 
-				$formatBenar = false;
+		$pekerjaan = $_POST['pekerjaan'];
+		$instansi = $_POST['instansi'];
+			$conn = connectDB();
 		
-		}
-		else if(preg_match('/[\'\/~`\!@#\$%\^&\*\(\)_\-\+=\{\}\[\]\|;:"\<\>,\.\?\\\]/',$_POST["usernameBaru1"])){
-				$nameErr = "format nama salah"; 
-				$formatBenar = false;
-		}
+		
 		//sumber http://stackoverflow.com/questions/11873990/create-preg-match-for-password-validation-allowing
 		
 		//memasukkan data
-		$conn = connectDB();
-		$sql = "INSERT into user (fullname,phone,tanda_user,username, email, password) values('$nama','$nomorHP',0,'$username','$email','$password')";
-		$sql2= "SELECT username FROM user WHERE username='$username' ";
+		$sqlSudahAda= "SELECT * FROM Pekerja_Asik WHERE username='$username' ";
+		$sql = "INSERT into Pekerja_Asik (fullname,no_hp,username, email, password ,pekerjaan, instansi ) values('$nama','$nomorHP','$username','$email','$password','$pekerjaan','$instansi')";
+			$resultSudahAda = $conn->query($sqlSudahAda);
+	
+		$cek=true;
+		if($resultSudahAda->num_rows > 0){
+			$cek=false;
 		
-		if($formatBenar){
-			$result2 = $conn->query($sql2);
-					
-			
-			if($result2->num_rows > 0){
-				
-				
-				//$GLOBALS['valid'] ="username tidak valid";
-				$cek = "username telah digunakan";
-			}
-			else if ($conn->query($sql) === TRUE ) {
-				//echo "New record created successfully";
 		
-			} else {
-				//echo "asd";
-			}
-			
-				$conn->close();
-				
-			
 		}
+		if($cek){
+	
+			$result = $conn->query($sql);
+			$_SESSION["userlogin"] = $username ;
+			$_SESSION["user_id"] = "1";
+		
+		}
+		$conn->close();
+		echo "<script>
+
+				history.go(0);
+				window.location.href='index.php'
+				</script>
+				";
+			
+		
 	}
+	
 	
 	
 
 	
 ?>
+
 		
 		<!--This is a comment. Comments are not displayed in the browser
 		<h2>Insert Account</h2>
@@ -82,13 +78,17 @@ http://codepen.io/axpro/pen/eIkAm
 						<div class="box">
 							<div class="content registerBox" style="display:none;">
 								<div class="form">
-									<form method="post"  action="" accept-charset="UTF-8">
+									<form method="post"  action="<?php echo $_SERVER['PHP_SELF'];?>" accept-charset="UTF-8">
 															
 									<input id="email" class="form-control" type="text" placeholder="Email" name="emailBaru1">
-									<input id="nama" class="form-control" type="text" placeholder="Nama" name="nama1">
+									<input id="fullname" class="form-control" type="text" placeholder="fullname" name="nama1">
 									<input id="username" class="form-control" type="text" placeholder="Username" name="usernameBaru1">                               
 									<input id="password" class="form-control" type="password" placeholder="Password" name="passwordBaru1">
 									<input id="nomorHp" class="form-control" type="text" placeholder="NO HP" name="nomorHP1">
+									
+									<input class="form-control" type="text" placeholder="pekerjaan" name="pekerjaan">
+									
+									<input class="form-control" type="text" placeholder="instansi" name="instansi">
 															   
 															  
 
@@ -99,4 +99,4 @@ http://codepen.io/axpro/pen/eIkAm
 								</div>
 							</div>
 						</div>     
-		
+	

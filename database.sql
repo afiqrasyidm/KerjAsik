@@ -46,7 +46,7 @@ CREATE TABLE Pekerja_Asik (
 	password varchar(50) NOT NULL,
 	pekerjaan varchar(50) NOT NULL,
 	nomor_rekening varchar(50) NOT NULL,
-	deskripsi VARCHAR(100) NOT NULL,
+	
 	foto_ktp varchar(100) 
 );
 
@@ -60,6 +60,17 @@ VALUES('Ano Saja Tapi Pekerja', '08088', 'anto@anto.com', 'anto university', 'an
 INSERT INTO Pekerja_Asik (fullname, no_hp, email, instansi, username, password, pekerjaan, nomor_rekening, deskripsi )
 VALUES('Ano Saja Tapi Pekerja', '08088', 'anto@anto.com', 'anto university', 'andi', 'andi', 'mahasiswa', '000', 'seorang mahasiswa yang bersemangat!');
 
+
+DELETE FROM Pekerja_Asik WHERE id=1;
+DELETE FROM Pekerja_Asik WHERE id=2;
+DELETE FROM Pekerja_Asik WHERE id=3;
+DELETE FROM Pekerja_Asik WHERE id=4;
+DELETE FROM Pekerja_Asik WHERE id=5;
+DELETE FROM Pekerja_Asik WHERE id=6;
+DELETE FROM Pekerja_Asik WHERE id=7;
+DELETE FROM Pekerja_Asik WHERE id=9;
+
+DELETE FROM Pencari_Pekerja_Asik WHERE id=2;
 
 
 CREATE TABLE Pekerja_Yang_Mendaftar(
@@ -76,3 +87,7 @@ INSERT INTO Pekerja_Yang_Mendaftar (id_pekerjaan_asik, id_pekerja_asik )VALUES( 
 
 INSERT INTO Pekerja_Yang_Mendaftar (id_pekerjaan_asik, id_pekerja_asik )VALUES( 1,2 );
 
+
+----yang perlu ditambah 11-12-2016 --
+
+ALTER TABLE Pekerja_Asik DROP COLUMN deskripsi;

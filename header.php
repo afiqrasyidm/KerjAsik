@@ -3,7 +3,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-   
+	  <!-- PAGE TITLE -->
+    <title>KerjAsik</title>
    
    
     
@@ -12,11 +13,12 @@
    
    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
 
+
    
    
    
-   <!-- PAGE TITLE -->
-    <title>KerjAsik</title>
+ 
+   
     <!-- MAKE IT RESPONSIVE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- BOOTSTRAP -->
@@ -94,7 +96,7 @@
 										
 										
 												  <li class='dropdown'>
-													  <a class='dropdown-toggle' data-toggle='dropdown' href='#'> Halo ".$username."
+													  <a class='dropdown-toggle' data-toggle='dropdown' href='#'> Halo, ".$username."
 													  <span class='caret'></span></a>
 													  <ul class='dropdown-menu' id='dm'>
 														<li ><a href='profil.php'  style='color:black;'  >Profil</a></li>
@@ -135,18 +137,21 @@
 									?>
 					
 												
-							
-							   <li class="dropdown">
-								  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Daftar
-								  <span class="caret"></span></a>
-								  <ul class="dropdown-menu" id="dm">
-									<li ><a data-toggle="modal" href="javascript:void(0)" style="color:black;"   onclick="openRegisterPemberiBeasiswaModal();" >Pekerja Asik</a></li>
-									<li><a id="dm2"  data-toggle="modal" href="javascript:void(0)" style="color:black;" onclick="openRegisterPencariBeasiswaModal();" >Pencari Pekerja Asik</a></li>
+						<?php	
+							if(!isset($_SESSION["userlogin"])){
+							 echo"  <li class='dropdown'>
+								  <a class='dropdown-toggle' data-toggle='dropdown' href='#'>Daftar
+								  <span class='caret'></span></a>
+								  <ul class='dropdown-menu' id='dm'>
+									<li ><a data-toggle='modal' href='javascript:void(0)' style='color:black;'   onclick='openRegisterPemberiBeasiswaModal();' >Pekerja Asik</a></li>
+									<li><a id='dm2'  data-toggle='modal' href='javascript:void(0)' style='color:black;' onclick='openRegisterPencariBeasiswaModal();' >Pencari Pekerja Asik</a></li>
 								  </ul>
-								</li>
+								</li>";
+								
+								
 							
-							
-							
+							}
+						?>
 							
 							
 							

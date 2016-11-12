@@ -47,7 +47,7 @@
 													echo  "<div class='slide'>";
 													echo 	"<div class='event'>";
 														echo 	"<div class='event-header'>";
-															echo 	"<a href='single-event.html'>";
+															echo 	"<a href='single-event.php'>";
 																echo 	"<img  class='images' src='./images/event/gerak_jalan.jpg' alt='Gambar'>";
 																echo 	"</a>";
 																echo "</div>";

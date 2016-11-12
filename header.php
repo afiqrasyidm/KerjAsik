@@ -1,36 +1,7 @@
 
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
-	<head>
-		<meta charset="utf-8">
-		<!-- PAGE TITLE -->
-		<title>KerjAsik</title>
-		<!-- MAKE IT RESPONSIVE -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- BOOTSTRAP -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	   
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-		
-		<!-- MAIN STYLE -->
-		<link href="css/customize.css" rel="stylesheet" media="screen">
-		
-		<link href="css/login-register.css" rel="stylesheet" media="screen">
-		
-		<link href="style.css" rel="stylesheet" media="screen">
-		<!-- FONTS -->
-		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
-		  <script src="js/html5shiv.js"></script>
-		  <script src="js/respond.min.js"></script>
-		<![endif]-->
-		<script src="js/login-register.js"></script>
-	 
-=======
+
   <head>
     <meta charset="utf-8">
    
@@ -67,9 +38,7 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->
    
-	<script src="https://maps.googleapis.com/maps/api/js"></script>
 	
->>>>>>> a8867571b861fb57e39a455107387f652b1d2ab2
 	</head>
 	<!-- START BODY -->
 	<body>
@@ -115,7 +84,7 @@
 												if($_GET['logout'] == 'true'){
 													header("Location: index.php");
 												
-<<<<<<< HEAD
+
 													session_destroy(); 
 												}
 											}
@@ -138,41 +107,14 @@
 							</nav>
 						</div>
 					</nav>
-=======
+
 							
-							   <li class="dropdown">
-								  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sign-Up
-								  <span class="caret"></span></a>
-								  <ul class="dropdown-menu" id="dm">
-									<li ><a data-toggle="modal" href="javascript:void(0)" style="color:black;"   onclick="openRegisterPemberiBeasiswaModal();" >Pekerja Asik</a></li>
-									<li><a id="dm2"  data-toggle="modal" href="javascript:void(0)" style="color:black;" onclick="openRegisterPencariBeasiswaModal();" >Pencari Pekerja Asik</a></li>
-								  </ul>
-								</li>
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							</ul>
-						</nav>
-					</div>
-				</nav>
->>>>>>> a8867571b861fb57e39a455107387f652b1d2ab2
-			
 			
 			
 			</div>
 	
-<<<<<<< HEAD
 		<div class="modal fade login" id="loginModal">
-=======
-			
-		 <div class="modal fade login" id="loginModal">
->>>>>>> a8867571b861fb57e39a455107387f652b1d2ab2
+
 		      <div class="modal-dialog login animated">
     		      <div class="modal-content">
     		         <div class="modal-header">
@@ -203,14 +145,7 @@
                              </div>
                         </div>
 
-<<<<<<< HEAD
-						
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-=======
+
 						 <?php include 'registerPekerjaAsik.php';?>      
 						 <?php include 'registerPencariPekerjaAsik.php';?>      
                     </div>
@@ -220,6 +155,5 @@
 			
 	
 	</div>
->>>>>>> a8867571b861fb57e39a455107387f652b1d2ab2
-			
+
 			

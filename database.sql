@@ -1,6 +1,4 @@
-
-create database kerjasik;
-
+use kerjasik;
 CREATE TABLE Pencari_Pekerja_Asik (
 	id INT(6)  AUTO_INCREMENT PRIMARY KEY,
 	fullname VARCHAR(50) NOT NULL,

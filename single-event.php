@@ -1,4 +1,40 @@
 <?php include 'header.php';?>
+<<<<<<< HEAD
+<head>
+    <!-- PAGE TITLE -->
+    <title>Juntos - Charity & Association Template</title>
+</head>
+  <!-- START BODY -->
+  <body>
+	<div id="page">
+		<!-- START MAIN CONTAINER -->
+		<div id="main-container">
+		
+			<!-- START NAVIGATION -->
+			<div class="sticky-wrapper">
+				<nav id="navigation">
+					<div class="container">
+						<!-- LOGO GOES HERE -->
+						<a href="index.html" id="logo"><img src="images/logo.png" alt="Logo Image"></a>
+						<!-- MENU -->
+						<nav>
+							<ul id="menu">
+								<li><a href="index.html#project">Project</a></li>
+								<li><a href="index.html#team">Team</a></li>
+								<li><a href="index.html#services">Services</a></li>
+								<li><a href="index.html#gallery">Gallery</a></li>
+								<li><a href="index.html#events">Events</a></li>
+								<li><a href="index.html#blog">Blog</a></li>
+								<li><a href="index.html#contact">Contact</a></li>
+								<li><a href="index.html#donation" class="btn btn-success">Donation</a></li>
+							</ul>
+						</nav>
+					</div>
+				</nav>
+			</div>
+			<!-- END NAVIGATION -->
+=======
+>>>>>>> a8867571b861fb57e39a455107387f652b1d2ab2
 		
 			<!-- START PAGE SECTION -->
 			<section id="single-page" class="section with-arrow">
@@ -15,7 +51,11 @@
 							<!-- event CONTENT -->
 							<div class="col-md-9">
 								<div class="event-featured">
+<<<<<<< HEAD
+								    <img src="images/event/featured.jpg" alt="Featured Image"></a>
+=======
 								    <img src="images/event/gerak_jalan_2.jpg" alt="Featured Image"></a>
+>>>>>>> a8867571b861fb57e39a455107387f652b1d2ab2
 							    </div>
 							    <div class="event-date">
 									<p><span class="icon icon-calendar"></span> December 25, 2013</p>
@@ -94,6 +134,10 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 		<div id="loader"></div>
   	</div>
     <!-- SCRIPTS -->
+<<<<<<< HEAD
+    <script src="http://code.jquery.com/jquery.js"></script>
+=======
+>>>>>>> a8867571b861fb57e39a455107387f652b1d2ab2
     <!-- ONLY FOR THE MAP START-->
     <!-- ONLY FOR THE MAP END-->
     <script>
@@ -115,6 +159,9 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 		
 		google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+<<<<<<< HEAD
+<?php include 'footer.php';?>
+=======
 	<script src="js/jquery.sequence-min.js"></script>
 	<script src="js/alert.js"></script>
     <script src="js/jquery.fancybox.pack.js"></script>
@@ -127,3 +174,4 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
   </body>
   <!-- END BODY -->
 </html>
+>>>>>>> a8867571b861fb57e39a455107387f652b1d2ab2

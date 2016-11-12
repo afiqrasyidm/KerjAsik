@@ -1,4 +1,5 @@
 <?php include 'header.php';?>
+<<<<<<< HEAD
 <head>
     <!-- PAGE TITLE -->
     <title>Juntos - Charity & Association Template</title>
@@ -32,6 +33,8 @@
 				</nav>
 			</div>
 			<!-- END NAVIGATION -->
+=======
+>>>>>>> a8867571b861fb57e39a455107387f652b1d2ab2
 		
 			<!-- START PAGE SECTION -->
 			<section id="single-page" class="section with-arrow">
@@ -48,7 +51,11 @@
 							<!-- event CONTENT -->
 							<div class="col-md-9">
 								<div class="event-featured">
+<<<<<<< HEAD
 								    <img src="images/event/featured.jpg" alt="Featured Image"></a>
+=======
+								    <img src="images/event/gerak_jalan_2.jpg" alt="Featured Image"></a>
+>>>>>>> a8867571b861fb57e39a455107387f652b1d2ab2
 							    </div>
 							    <div class="event-date">
 									<p><span class="icon icon-calendar"></span> December 25, 2013</p>
@@ -127,7 +134,10 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 		<div id="loader"></div>
   	</div>
     <!-- SCRIPTS -->
+<<<<<<< HEAD
     <script src="http://code.jquery.com/jquery.js"></script>
+=======
+>>>>>>> a8867571b861fb57e39a455107387f652b1d2ab2
     <!-- ONLY FOR THE MAP START-->
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <!-- ONLY FOR THE MAP END-->
@@ -149,4 +159,19 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 		
 		google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+<<<<<<< HEAD
 <?php include 'footer.php';?>
+=======
+	<script src="js/jquery.sequence-min.js"></script>
+	<script src="js/alert.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.smoothscroll.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+  <!-- END BODY -->
+</html>
+>>>>>>> a8867571b861fb57e39a455107387f652b1d2ab2

@@ -47,8 +47,23 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 										</div>
 
 										<div id="daftar" >
-											<a  href="selamat.php" class="btn btn-default widget-btn">Ikut</a>
-										</div>
+																	
+											<?php
+												$username="";
+												if(isset($_SESSION["userlogin"])){
+													echo "<a  href='selamat.php' class='btn btn-default widget-btn'>Ikut</a>";
+												}
+												else{
+													$href = "javascript:void(0)";
+													$dataToggle = "modal";
+													$onClick ="openLoginModal()";
+													
+													echo "<a  class='btn btn-default widget-btn' data-toggle=".$dataToggle." href=".$href." onclick=".$onClick.">Ikut</a>";
+												}
+												
+											
+											?>
+										
 									
 									</div>
 									

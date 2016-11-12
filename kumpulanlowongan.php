@@ -59,12 +59,7 @@
 															
 															
 															
-															
-															
-															
-															
-															
-															
+														
 															
 															
 															
@@ -76,7 +71,17 @@
 															echo 			"<p><span class='icon icon-calendar'></span>".$row["tanggal_tutup_daftar"]."</p>";
 															echo 			"<p><span class='icon icon-location'></span> ".$row["lokasi"]."</p>";
 															echo 		"</div>";
-															echo 		"<p>".$row["deskripsi"]."</p>";
+															
+															
+															
+																
+															
+															
+															$snippet= substr($row["deskripsi"], 0, 100);
+															
+															
+															
+															echo 		"<p>".$snippet."</p>";
 															echo 		"<div class='center'>";
 															echo 			"<a href='single-event.php' class='btn btn-default'>Read More</a>";
 															echo 		"</div>";

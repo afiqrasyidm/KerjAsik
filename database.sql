@@ -16,7 +16,7 @@ INSERT INTO Pencari_Pekerja_Asik (fullname, no_hp, email, instansi, username, pa
 CREATE TABLE Pekerjaan_Asik (
 	id INT(6)  AUTO_INCREMENT PRIMARY KEY,
 	id_pencari_pekerja_asik  INT(6),
-	deskripsi VARCHAR(100) NOT NULL,
+	deskripsi VARCHAR(1000) NOT NULL,
 	tanggal_buka_daftar DATE NOT NULL,
 	tanggal_tutup_daftar DATE NOT NULL,
 	lokasi varchar(50),
@@ -30,6 +30,10 @@ CREATE TABLE Pekerjaan_Asik (
 INSERT INTO Pekerjaan_Asik (id_pencari_pekerja_asik, deskripsi, tanggal_buka_daftar, tanggal_tutup_daftar, lokasi, jumlah_pekerja, judul  )
 VALUES('1', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged', '2016-10-10', '2016-10-11', 'depok', '11', 'GERAK JALAN IS THE BEST');
 
+
+ALTER TABLE Pekerjaan_asik ADD jumlah_yang_daftar int;
+
+ALTER TABLE Pekerjaan_Asik MODIFY  COLUMN deskripsi varchar(2000) NOT NULL;
 
 
 CREATE TABLE Pekerja_Asik (

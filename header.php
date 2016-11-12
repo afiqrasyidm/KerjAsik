@@ -15,7 +15,7 @@
    
    
    <!-- PAGE TITLE -->
-    <title>Juntos - Charity & Association Template</title>
+    <title>KerjAsik</title>
     <!-- MAKE IT RESPONSIVE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- BOOTSTRAP -->
@@ -61,7 +61,7 @@
 								<li><a href="index.php">Home</a></li>
 								<li><a href="kumpulanlowongan.php">Pekerjaan Asik</a></li>
 								<li><a href="addPekerjaanasik.php">Buat Pekerjaan Asik</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<li><a href="bantuan.php">Bantuan</a></li>
 				
 				
 							
@@ -82,7 +82,7 @@
 											$href = "javascript:void(0)";
 											$dataToggle = "modal";
 											$onClick ="openLoginModal()";
-											echo "<li><a data-toggle=".$dataToggle." href=".$href." onclick=".$onClick.">Login</a></li>";
+											echo "<li><a data-toggle=".$dataToggle." href=".$href." onclick=".$onClick.">Masuk</a></li>";
 										}
 										
 									
@@ -101,7 +101,7 @@
 												
 							
 							   <li class="dropdown">
-								  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sign-Up
+								  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Daftar
 								  <span class="caret"></span></a>
 								  <ul class="dropdown-menu" id="dm">
 									<li ><a data-toggle="modal" href="javascript:void(0)" style="color:black;"   onclick="openRegisterPemberiBeasiswaModal();" >Pekerja Asik</a></li>
@@ -132,7 +132,7 @@
     		      <div class="modal-content">
     		         <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title">Login with</h4>
+                        <h4 class="modal-title">Masuk melalui</h4>
                     </div>
                     <div class="modal-body">  
                         <div class="box">

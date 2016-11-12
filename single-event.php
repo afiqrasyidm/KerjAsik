@@ -95,10 +95,10 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
   	</div>
     <!-- SCRIPTS -->
     <!-- ONLY FOR THE MAP START-->
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <!-- ONLY FOR THE MAP END-->
     <script>
 		function initialize() {
+
 		  var myLatlng = new google.maps.LatLng(48.858229,2.294388); //YOUR LOCATION -> http://itouchmap.com/latlong.html
 		  var mapOptions = {
 		    zoom: 6,

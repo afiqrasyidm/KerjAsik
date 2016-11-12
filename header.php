@@ -5,12 +5,8 @@
     <meta charset="utf-8">
    
    
-   
+   <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDgxQoGWlSuoQ8lkYMM9x_r55ASnOVzFuc"></script>
     
-   
-   <script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyDgxQoGWlSuoQ8lkYMM9x_r55ASnOVzFuc" async="" defer="defer" type="text/javascript"></script>
-   
-   
    
    
    

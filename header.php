@@ -10,7 +10,8 @@
    
    <script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyDgxQoGWlSuoQ8lkYMM9x_r55ASnOVzFuc" async="" defer="defer" type="text/javascript"></script>
    
-   
+   <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+
    
    
    
@@ -77,16 +78,41 @@
 										session_start();
 										$username="";
 										if(isset($_SESSION["userlogin"])){
+											
+											
 											$logout = "logout";
 											$url = "index.php?logout=true";
 											$username = $_SESSION["userlogin"];
-											echo "<li><a href =".$url.">Logout(".$username.")</a></li>";
+											 echo "
+										
+										
+										
+												  <li class='dropdown'>
+													  <a class='dropdown-toggle' data-toggle='dropdown' href='#'> Halo ".$username."
+													  <span class='caret'></span></a>
+													  <ul class='dropdown-menu' id='dm'>
+														<li ><a href='profil.php'  style='color:black;'  >Profil</a></li>
+														<li><a href =".$url." style='color:black;' >Logout </a></li>
+													  </ul>
+													</li>
+												";
+										
+										
+										
+										
+										
+										
 										}
 										else{
 											$href = "javascript:void(0)";
 											$dataToggle = "modal";
 											$onClick ="openLoginModal()";
 											echo "<li><a data-toggle=".$dataToggle." href=".$href." onclick=".$onClick.">Masuk</a></li>";
+											
+										
+										
+											
+											
 										}
 										
 									

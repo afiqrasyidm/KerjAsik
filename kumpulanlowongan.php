@@ -53,6 +53,25 @@
 																echo "</div>";
 															echo 	"<div class='event-content'>";
 															echo 		"<h3>".$row["judul"]."</h3>";
+															
+															
+
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
 															echo 		"<div class='event-data'>";
 															echo 			"<p><span class='icon icon-calendar'></span>".$row["tanggal_tutup_daftar"]."</p>";
 															echo 			"<p><span class='icon icon-location'></span> ".$row["lokasi"]."</p>";
@@ -62,8 +81,21 @@
 															echo 			"<a href='single-event.php' class='btn btn-default'>Read More</a>";
 															echo 		"</div>";
 															echo 	"</div>";
+														
+														
+														
+														
 														echo 	"</div>";
+														
+														
+															
+														
+														
 													echo 	"</div>";
+													
+													
+															
+															
 												echo 	"</li>";
 												
 									if($countPost%3 == 0 ){		
@@ -83,9 +115,8 @@
 						}
 						mysqli_close($conn);
 		?>
-								
-			
 		
+															
 			
 			</section>
 			<!-- END TEAM SECTION -->

@@ -4,7 +4,7 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-* * COLOR SHEME 1 #0DB4E9 (blue) #82b440 (green)
+* * COLOR SHEME 1 #82b440 (blue) #82b440 (green)
 * * COLOR SHEME 2 #6BD6D6 #D66B6B
 * * COLOR SHEME 3 #B782ED #B8ED82
 * * COLOR SHEME 4 #917B54 #F7A516
@@ -44,30 +44,30 @@ a:hover,
 a,
 .section-content-colored.color2 .section-content .event-content a.btn:hover,
 .section-content-colored.color2 .section-content .post-content a.btn:hover{
-	color: #0DB4E9;
+	color: #82b440;
 }
 #navigation.navigation-fixed, 
 .mean-container .mean-nav ul,
 .pace .pace-progress{
-	background-color: #0DB4E9;
+	background-color: #82b440;
 }
 .pace .pace-progress-inner {
-  box-shadow: 0 0 10px #0DB4E9, 0 0 5px #0DB4E9;
+  box-shadow: 0 0 10px #82b440, 0 0 5px #82b440;
 }
 .pace .pace-activity {
-  border-top-color: #0DB4E9;
-  border-left-color: #0DB4E9;
+  border-top-color: #82b440;
+  border-left-color: #82b440;
 }
 .section-content-colored.color2 .section-content .event-content a.btn,
 .section-content-colored.color2 .section-content .post-content a.btn,
 .section-content-colored.color2 .section-content{
-	background-color: #0DB4E9;
+	background-color: #82b440;
 }
 .section-content-colored.color2 .event-content a.btn:hover,
 .section-content-colored.color2 .post-content a.btn:hover{
-	border-color: #0DB4E9;
+	border-color: #82b440;
 }
 .section-content-colored.color2.with-arrow:after,
 .section-full-colored.color2.with-arrow:after{
-	border-top-color: #0DB4E9;
+	border-top-color: #82b440;
 }

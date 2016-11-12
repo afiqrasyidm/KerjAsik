@@ -4,7 +4,7 @@
 	<span class="sequence-prev" ></span>
 	<span class="sequence-next" ></span>
 	<ul class="sequence-canvas">
-	    <li class="animate-in" style="background-color: #0DB4E9;">
+	    <li class="animate-in" style="background-image: url('images/slider/1.jpg');">
 		   	<div class="slide-content">
 				<div class="center">
 					<h1>Disini Semuanya Asik</h1>
@@ -13,7 +13,7 @@
 				</div>
 		   	</div>
 	    </li>
-		<li class="animate-in" style="background-color: #0DB4E9;">
+		<li class="animate-in" style="background-image: url('images/slider/2.jpg');">
 			<div class="slide-content">
 				<h1>Apa Itu Kerja Asik?</h1>
 				<h3>Describe here your project in a few sentences, to explain to your visitors what you're doing and what you need their help, 
@@ -28,17 +28,6 @@
 				</div>
 			</div>
 		</li>
-		<li style="background-color: #0DB4E9;">
-			<div class="slide-content">
-				<div class="center">
-					<h1>Butuh Pekerja Asik</h1>
-					<img src="images/slider/funder.jpg" class="pull-left" alt="image in slider slide">
-					<h3>Funder Name</h3>
-					<p>Few words about the creation, the ideas, biography of the funder...</p>
-					<a href="#" class="btn btn-twitter"><span class="icon icon-twitter"></span> Twitter</a>
-				</div>
-			</div>
-		</li>
 	</ul>
 	
 	<ul class="sequence-pagination">
@@ -47,135 +36,7 @@
 	</ul>
 	</section>
 	<!-- END PROJECT SECTION -->
-											
-	<!-- START EVENTS SECTION -->
-	<section id="events" class="section section-content-colored with-arrow color2">
-		<!-- SECTION TITLE -->
-		<div class="section-header with-arrow">
-			<h1>Events In Coming</h1>
-			<hr>
-		</div>
-		<!-- SECTION CONTENT -->
-		<div class="section-content">
-			<div class="container">
-				<div class="flexslider events-slider">
-					<ul class="slides">
-						<!-- START EVENT -->
-						<li>
-							<div class="slide">
-								<div class="event">
-									<!-- EVENT FEATURED IMAGE -->
-									<div class="event-header">
-										<a href="single-event.html">
-											<img src="images/event/1.jpg" alt="Event cover">
-										</a>
-									</div>
-									<!-- START CONTENT -->
-									<div class="event-content">
-										<!-- EVENT TITLE -->
-										<h3>Event Title</h3>
-										<!-- EVENT DATAS -->
-										<div class="event-data">
-											<p><span class="icon icon-calendar"></span> December 25, 2013</p>
-											<P><span class="icon icon-location"></span> 1600 Pennsylvania Ave NW, Washington, DC</p>
-										</div>
-										<!-- EVENT DESCRIPTION -->
-										<p>A text to describe your event which could be a service, a fundraising, a reception or something else.</p>
-										<div class="center">
-											<a href="single-event.html" class="btn btn-default">Read More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<!-- END EVENT -->
-						<li>
-							<div class="slide">
-								<div class="event">
-									<div class="event-header">
-										<a href="single-event.html">
-											<img src="images/event/2.jpg" alt="Event cover">
-										</a>
-									</div>
-									<div class="event-content">
-										<h3>Event Title</h3>
-										<div class="event-data">
-											<p><span class="icon icon-calendar"></span> January 5, 2014</p>
-											<P><span class="icon icon-location"></span> Champ de Mars, 5 Avenue Anatole France</p>
-										</div>
-										<p>A text to describe your event which could be a service, a fundraising, a reception or something else.</p>
-										<div class="center">
-											<a href="single-event.html" class="btn btn-default">Read More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="slide">
-								<div class="event">
-									<div class="event-header">
-										<a href="single-event.html">
-											<img src="images/event/3.jpg" alt="Event cover">
-										</a>
-									</div>
-									<div class="event-content">
-										<h3>Event Title</h3>
-										<div class="event-data">
-											<p><span class="icon icon-calendar"></span> January 13, 2014</p>
-											<P><span class="icon icon-location"></span> London SW1A 1AA</p>
-										</div>
-										<p>A text to describe your event which could be a service, a fundraising, a reception or something else.</p>
-										<div class="center">
-											<a href="single-event.html" class="btn btn-default">Read More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="slide">
-								<div class="event">
-									<div class="event-header">
-										<a href="single-event.html">
-											<img src="images/event/4.jpg" alt="Event cover">
-										</a>
-									</div>
-									<div class="event-content">
-										<h3>Event Title</h3>
-										<div class="event-data">
-											<p><span class="icon icon-calendar"></span> March 2, 2014</p>
-											<P><span class="icon icon-location"></span> London SW1A 1AA</p>
-										</div>
-										<p>A text to describe your event which could be a service, a fundraising, a reception or something else.</p>
-										<div class="center">
-											<a href="single-event.html" class="btn btn-default">Read More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<!-- LOAD MORE OPTION
-						<li>
-							<div class="slide">
-								<div class="load-more">
-									<div class="content">
-										<a href="#" title="load more">
-											<span class="icon icon-large icon-plus"></span>
-											<h3>Load More Events</h3>
-										</a>
-									</div>
-								</div>
-							</div>
-						</li>
-						-->
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- END EVENTS SECTION -->
-			
+												
 	<!-- START BLOG SECTION -->
 	<section id="blog" class="section with-arrow section-content-colored">
 		<!-- SECTION TITLE -->
@@ -301,6 +162,66 @@
 			</div>
 		</div>
 	</section>
-	<!-- END BLOG SECTION -->			
+	<!-- END BLOG SECTION -->	
+			
+	<!-- START SERVICES SECTION -->
+	<section id="services" class="section section-full-colored">
+		<!-- SECTION TITLE -->
+		<div class="section-header">
+			<h1>What We Do</h1>
+			<hr>
+		</div>
+		<!-- SECTION CONTENT -->
+		<div class="section-content">
+			<div class="container">
+				<div class="services-slider flexslider">
+					<ul class="slides">
+						<!-- START SERVICE -->
+						<li>
+							<div class="slide">
+								<span class="icon icon-large icon-glass"></span>
+								<h3>Reception</h3>
+								<p>Here it's just an example of the activities that you can do with your charity to get funds. Or something else...</p>
+							</div>
+						</li>
+						<!-- END SERVICE -->
+						<li>
+							<div class="slide">
+								<span class="icon icon-large icon-users2"></span>
+								<h3>Babysitting</h3>
+								<p>Here it's just an example of the activities that you can do with your charity to get funds. Or something else...</p>
+							</div>
+						</li>
+						<li>
+							<div class="slide">
+								<span class="icon icon-large  icon-leaf"></span>
+								<h3>Gardening</h3>
+								<p>Here it's just an example of the activities that you can do with your charity to get funds. Or something else...</p>
+							</div>
+						</li>
+						<li>
+							<div class="slide">
+								<span class="icon icon-large icon-gift"></span>
+								<h3>Gift Wrapping</h3>
+								<p>Here it's just an example of the activities that you can do with your charity to get funds. Or something else...</p>
+							</div>
+						</li>
+						<li>
+							<div class="slide">
+								<span class="icon icon-large icon-coin"></span>
+								<h3>Sale</h3>
+								<p>Here it's just an example of the activities that you can do with your charity to get funds. Or something else...</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- SECTION BUTTON -->
+				<div class="center">
+					<a href="#events" class="btn btn-default">Our Diary</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END SERVICES SECTION -->			
 		
 <?php include 'footer.php';?>

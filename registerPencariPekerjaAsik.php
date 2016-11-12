@@ -6,62 +6,43 @@
 		$cek = "";
 	
 	
-	if(isset($_POST['usernameBaru'])){
+	
+	if(isset($_POST['usernameBaru2'])){
 		//echo "asdasdsad";
-		$username = $_POST['usernameBaru'];
-		$password = $_POST['passwordBaru'];
-		$email = $_POST['emailBaru'];
-		$namaSekolah = $_POST['namaSekolah'];
-		$semester = $_POST['semester'];
-		$tempatTinggal = $_POST['tempatTinggal'];
-		$nama = $_POST['nama'];
-		$nomorHP = $_POST['nomorHP'];
+		$username = $_POST['usernameBaru2'];
+		$password = $_POST['passwordBaru2'];
+		$nama = $_POST['nama2'];
+		$email = $_POST['emailBaru2'];
+
+
+		$nomorHP = $_POST['nomorHP2'];
+
 		
-		$formatBenar = true;
-		if(preg_match("/[0-9]/",$_POST["usernameBaru"])){ 
-				$nameErr = "format nama salah"; 
-				$formatBenar = false;
+		$instansi = $_POST['instansi2'];
+			$conn = connectDB();
 		
-		}
-		else if(preg_match("/[A-Z]/",$_POST["usernameBaru"])){ 
-				$nameErr = "format nama "; 
-				$formatBenar = false;
 		
-		}
-		else if(preg_match('/[\'\/~`\!@#\$%\^&\*\(\)_\-\+=\{\}\[\]\|;:"\<\>,\.\?\\\]/',$_POST["usernameBaru"])){
-				$nameErr = "format nama salah"; 
-				$formatBenar = false;
-		}
-		//sumber http://stackoverflow.com/questions/11873990/create-preg-match-for-password-validation-allowing
+		//sumber http://stackoverflow.com/questions/22873990/create-preg-match-for-password-validation-allowing
 		
 		//memasukkan data
-		$conn = connectDB();
-		$sql = "INSERT into userBeasiswa (fullname,phone,address,sekolah,semester,tanda_user,username, email, password) values
-		('$nama','$nomorHP','$tempatTinggal','$namaSekolah','$semester',1,'$username','$email','$password')";
-		$sql2= "SELECT username FROM userBeasiswa WHERE username='$username' ";
+		$sqlSudahAda= "SELECT * FROM Pencari_Pekerja_Asik WHERE username='$username' ";
+		$sql = "INSERT into Pencari_Pekerja_Asik (fullname,no_hp,username, email, password , instansi ) values('$nama','$nomorHP','$username','$email','$password','$instansi')";
+			$resultSudahAda = $conn->query($sqlSudahAda);
+	
+		$cek=true;
+		if($resultSudahAda->num_rows > 0){
+			$cek=false;
 		
-		if($formatBenar){
-			$result2 = $conn->query($sql2);
-					
-			
-			if($result2->num_rows > 0){
-				
-				
-				//$GLOBALS['valid'] ="username tidak valid";
-				$cek = "username telah digunakan";
-			}
-			else if ($conn->query($sql) === TRUE ) {
-				//echo "New record created successfully";
-;
-			} else {
-				echo "asd";
-			}
-			
-				$conn->close();
-				
-			
+		
 		}
+		if($cek){
+	
+			$result = $conn->query($sql);
+		
+		}
+		$conn->close();
 	}
+	
 	
 	
 
@@ -84,16 +65,18 @@ http://codepen.io/axpro/pen/eIkAm
 							<div class="content registerPencariBeasiswaBox" style="display:none;">
 								<div class="form">
 									<form method="POST"  action="" accept-charset="UTF-8">
-															
-									<input id="email" class="form-control" type="text" placeholder="Email" name="emailBaru">
-									<input id="nama" class="form-control" type="text" placeholder="Nama" name="nama">
-									<input id="username" class="form-control" type="text" placeholder="Username" name="usernameBaru">                               
-									<input id="password" class="form-control" type="password" placeholder="Password" name="passwordBaru">
-									<input id="nomorHp" class="form-control" type="text" placeholder="NO HP" name="nomorHP">
-									<input id="tempatTinggal" class="form-control" type="text" placeholder="Tempat Tinggal Sekarang" name="tempatTinggal">
-									<input id="namaSekolah" class="form-control" type="text" placeholder="Nama Sekolah" name="namaSekolah">						  
-									<input id="semester" class="form-control" type="text" placeholder="NO HP" name="semester">						   
-
+									
+									
+									<input id="email" class="form-control" type="text" placeholder="Email" name="emailBaru2">
+									<input id="fullname" class="form-control" type="text" placeholder="fullname" name="nama2">
+									<input id="username" class="form-control" type="text" placeholder="Username" name="usernameBaru2">                               
+									<input id="password" class="form-control" type="password" placeholder="Password" name="passwordBaru2">
+									<input id="nomorHp" class="form-control" type="text" placeholder="NO HP" name="nomorHP2">
+									
+									
+									<input class="form-control" type="text" placeholder="instansi" name="instansi2">
+									
+									
 
 									 <input  id='buttonRegister' class="btn btn-default btn-register" type="submit" value="Create account" name="commit">
 																

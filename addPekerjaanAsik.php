@@ -19,20 +19,20 @@
 							  <form action="insertPekerjaanAsik.php" method="post" enctype="multipart/form-data">
 								<div class="form-group">
 								  <label>Judul</label>
-								  <input type="text" name="judul" required></input><br/>
+								  <input type="text" name="judul" class="form-control" required></input><br/>
 								  <label>Deskripsi</label>
-								  <textarea class="form-control" rows="5" id="comment" name="deskripsi"></textarea>
+								  <textarea class="form-control" rows="5" id="comment" name="deskripsi"></textarea><br/><br/>
 								  <label>Tanggal Dibuka</label>
-								  <input type="date" name="buka" placeholder="YYYY-MM-DD" required/><br/>
+								  <input type="date" name="buka" class="input-sm" placeholder="YYYY-MM-DD" required/><br/><br/>
 								  <label>Tanggal Ditutup</label>
-								  <input type="date" name="tutup" placeholder="YYYY-MM-DD" required/><br/>
+								  <input type="date" name="tutup" class="input-sm" data-provide="datepicker" placeholder="YYYY-MM-DD" required/><br/><br/>
 								  <label>Jumlah Pekerja yang Dibutuhkan</label>
-								  <input type="text" name="jumlah_pekerja" required></input><br/>
+								  <input type="text" name="jumlah_pekerja" class="form-control" required></input><br/>
 								  <label>Lokasi</label>
-								  <input type="text" name="lokasi" required></input><br/>
+								  <input type="text" name="lokasi" class="form-control" required></input><br/>
 								  <label>Foto</label>
 								  <input type="file" name="file" />
-								  
+								  <br/>
 								  
 								  <button   type="submit" class="btn btn-default">Submit</button>
 								</div>

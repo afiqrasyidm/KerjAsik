@@ -4,16 +4,16 @@
 	<span class="sequence-prev" ></span>
 	<span class="sequence-next" ></span>
 	<ul class="sequence-canvas">
-	    <li class="animate-in" style="background-image: url('images/slider/1.gif');">
+	    <li class="animate-in" style="background-image: url('images/slider/3.gif');">
 		   	<div class="slide-content">
 				<div class="center">
 					<h1>Disini semuanya asik</h1>
 					<h2>Tak ada kerjaan seasik ini!</h2>					
-					<a href="kumpulanlowongan.php" class="btn btn-default"><h4>Cari Pekerjaan Asik</h4></a>				
+					<a href="kumpulanlowongan.php" class="btn btn-default"><h4 style="color:white; font-weight:bolder;">Cari Pekerjaan Asik</h4></a>				
 				</div>
 		   	</div>
 	    </li>
-		<li class="animate-in" style="background-image: url('images/slider/2.gif');">
+		<li class="animate-in" style="background-image: url('images/slider/1.gif');">
 			<div class="slide-content">
 				<h1>Apa itu Pekerjaan Asik</h1>
 				<h3> Pekerjaan asik merupakan pekerjaan yang tergolong singkat, mudah dikerjakan, dan bisa dikerjakan tanpa harus menghilangkan pekerjaan utama.
@@ -47,45 +47,23 @@
 								<div class="post post-normal">
 									<!-- FEATURED IMAGE -->
 									<div class="post-header">
-										<a href="single-blog.html">
-											<img src="images/blog/1.jpg" alt="Blog cover">
+										<a href="single-event.php">
+											<img src="images/event/gerak_jalan.jpg" alt="Blog cover">
 										</a>
 									</div>
 									<div class="post-content">
 										<!-- TITLE -->
-										<h3>Post Title</h3>
+										<h3>Gerak Jalan Santai di Depok</h3>
 										<!-- DATE -->
 										<div class="post-data">
-											<p><span class="icon icon-clock"></span> December 25, 2013</p>
+											<p><span class="icon icon-clock"></span> 25 Desember 2013</p>
+											<p><span class='icon icon-location'></span>Kota Bandung</p>
 										</div>
 										<!-- CONTENT -->
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec placerat sem. 
 										Vestibulum vel tristique purus. In hac habitasse platea dictumst. Suspendisse eget pellentesque dui...</p>
 										<div class="center">
-											<a href="single-blog.html" class="btn btn-default">Read More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<!-- END BLOG POST -->
-						<li>
-							<div class="slide">
-								<div class="post post-normal">
-									<div class="post-header">
-										<a href="single-blog.html">
-											<img src="images/blog/2.jpg" alt="Blog cover">
-										</a>
-									</div>
-									<div class="post-content">
-										<h3>Post Title</h3>
-										<div class="post-data">
-											<p><span class="icon icon-clock"></span> January 2, 2014</p>
-										</div>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec placerat sem. 
-										Vestibulum vel tristique purus. In hac habitasse platea dictumst. Suspendisse eget pellentesque dui...</p>
-										<div class="center">
-											<a href="single-blog.html" class="btn btn-default">Read More</a>
+											<a href="#" class="btn btn-default">Ikut</a>
 										</div>
 									</div>
 								</div>
@@ -94,20 +72,25 @@
 						<li>
 							<div class="slide">
 								<div class="post post-normal">
+									<!-- FEATURED IMAGE -->
 									<div class="post-header">
-										<a href="#">
-											<img src="images/blog/3.jpg" alt="Blog cover">
+										<a href="single-event.php">
+											<img src="images/event/gerak_jalan_2.jpg" alt="Blog cover">
 										</a>
 									</div>
 									<div class="post-content">
-										<h3>Post Title</h3>
+										<!-- TITLE -->
+										<h3>Gerak Jalan Santai saat Car Free Day</h3>
+										<!-- DATE -->
 										<div class="post-data">
-											<p><span class="icon icon-clock"></span> January 12, 2014</p>
+											<p><span class="icon icon-clock"></span> 25 Januari 2013</p>
+											<p><span class='icon icon-location'></span>Jakarta</p>
 										</div>
+										<!-- CONTENT -->
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec placerat sem. 
 										Vestibulum vel tristique purus. In hac habitasse platea dictumst. Suspendisse eget pellentesque dui...</p>
 										<div class="center">
-											<a href="single-blog.html" class="btn btn-default">Read More</a>
+											<a href="#" class="btn btn-default">Ikut</a>
 										</div>
 									</div>
 								</div>
@@ -116,25 +99,84 @@
 						<li>
 							<div class="slide">
 								<div class="post post-normal">
+									<!-- FEATURED IMAGE -->
 									<div class="post-header">
-										<a href="single-blog.html">
-											<img src="images/blog/4.jpg" alt="Blog cover">
+										<a href="single-event.php">
+											<img src="images/event/pembersihan_sungai.jpg" alt="Blog cover">
 										</a>
 									</div>
 									<div class="post-content">
-										<h3>Post Title</h3>
+										<!-- TITLE -->
+										<h3>Pembersihan kali ciliwung</h3>
+										<!-- DATE -->
 										<div class="post-data">
-											<p><span class="icon icon-clock"></span> February 22, 2014</p>
+											<p><span class="icon icon-clock"></span> 25 Desember 2013</p>
+											<p><span class='icon icon-location'></span>Jakarta</p>
 										</div>
+										<!-- CONTENT -->
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec placerat sem. 
 										Vestibulum vel tristique purus. In hac habitasse platea dictumst. Suspendisse eget pellentesque dui...</p>
 										<div class="center">
-											<a href="single-blog.html" class="btn btn-default">Read More</a>
+											<a href="#" class="btn btn-default">Ikut</a>
 										</div>
 									</div>
 								</div>
 							</div>
-						</li>						
+						</li>
+						<li>
+							<div class="slide">
+								<div class="post post-normal">
+									<!-- FEATURED IMAGE -->
+									<div class="post-header">
+										<a href="single-event.php">
+											<img src="images/event/gerak_jalan.jpg" alt="Blog cover">
+										</a>
+									</div>
+									<div class="post-content">
+										<!-- TITLE -->
+										<h3>Gerak Jalan Santai di Depok</h3>
+										<!-- DATE -->
+										<div class="post-data">
+											<p><span class="icon icon-clock"></span> 25 Desember 2013</p>
+											<p><span class='icon icon-location'></span>Kota Bandung</p>
+										</div>
+										<!-- CONTENT -->
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec placerat sem. 
+										Vestibulum vel tristique purus. In hac habitasse platea dictumst. Suspendisse eget pellentesque dui...</p>
+										<div class="center">
+											<a href="#" class="btn btn-default">Ikut</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="slide">
+								<div class="post post-normal">
+									<!-- FEATURED IMAGE -->
+									<div class="post-header">
+										<a href="single-event.php">
+											<img src="images/event/1000pohon.jpg" alt="Blog cover">
+										</a>
+									</div>
+									<div class="post-content">
+										<!-- TITLE -->
+										<h3>Aksi Tanam 1000 Pohon di Bali</h3>
+										<!-- DATE -->
+										<div class="post-data">
+											<p><span class="icon icon-clock"></span> 25 Desember 2013</p>
+											<p><span class='icon icon-location'></span>Bali</p>
+										</div>
+										<!-- CONTENT -->
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec placerat sem. 
+										Vestibulum vel tristique purus. In hac habitasse platea dictumst. Suspendisse eget pellentesque dui...</p>
+										<div class="center">
+											<a href="#" class="btn btn-default">Ikut</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
 					</ul>
 				</div>
 				<!-- SECTION BUTTON -->

@@ -63,20 +63,12 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 					              <h3>Upcoming events</h3>
 					              <ul class="widget-latests list-unstyled">
 					                <li>
-					                  <a href="single-event.html"><img src="images/event/2.jpg" alt="Post thumbnail"></a>
-					                  <h4>Event Title</h4>
-					                  <p>Event short description...
-					                  <span><span class="icon icon-calendar"></span> Rendezvous in 3 days</span>
-					                  <span><span class="icon icon-location"></span> event location</span></p>
-					                  <a href="single-event.html" class="btn btn-default widget-btn">Read More</a>
-					                </li>
-					                <li>
-					                  <a href="single-event.html"><img src="images/event/3.jpg" alt="Post thumbnail"></a>
-					                  <h4>Event Title</h4>
-					                  <p>Event short description...
-					                  <span><span class="icon icon-calendar"></span> Rendezvous in 27 days</span>
-					                  <span><span class="icon icon-location"></span> event location</span></p>
-					                  <a href="single-event.html" class="btn btn-default widget-btn">Read More</a>
+					                  <a href="single-event.html"><img src="images/event/pembersihan_sungat.jpg" alt="Post thumbnail"></a>
+					                  <h4>Gerakan Sosial Pembersihan Sungai Jakarta Berasama Pemerintah Kota</h4>
+					                  <p>Ayo ikut dalam pembersihan Jakarta yang disponsori oleh PEMKOT DKI</p>
+					                  <span><span class="icon icon-calendar"></span>3 Hari Lagi</span>
+					                  <span><span class="icon icon-location"></span> Jakarta</span></p>
+					                  <a href="single-event_2.php" class="btn btn-default widget-btn">Read More</a>
 					                </li>
 					                <li>
 					                  <a href="single-event.html"><img src="images/event/4.jpg" alt="Post thumbnail"></a>

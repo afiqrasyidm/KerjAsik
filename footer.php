@@ -21,7 +21,7 @@
     <script>
 		function initialize() {
 
-		  var myLatlng = new google.maps.LatLng(48.858229,2.294388); //YOUR LOCATION -> http://itouchmap.com/latlong.html
+		  var myLatlng = new google.maps.LatLng(-6.402484,106.794241); //YOUR LOCATION -> http://itouchmap.com/latlong.html
 		  var mapOptions = {
 		    zoom: 6,
 		    center: myLatlng

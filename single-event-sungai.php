@@ -17,7 +17,7 @@
 							<!-- event CONTENT -->
 							<div class="col-md-9">
 								<div class="event-featured">
-								    <img src="images/event/gerak_jalan_2.jpg" alt="Featured Image"></a>
+								    <img src="images/event/pembersihan_sungai.jpg" alt="Featured Image"></a>
 							    </div>
 							    <div class="event-date">
 									<p><span class="icon icon-calendar"></span> Besok</p>
@@ -37,7 +37,7 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 									</br>
 								</br>
 									<div id = "progressContainer">
-										<h3 id = "jumlahPendaftaran">70/100 telah mendaftar</h3>
+										<h3 id = "jumlahPendaftaran">40/100 telah mendaftar</h3>
 									
 										</br>
 										</br>										
@@ -93,12 +93,12 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 					              <h3>Upcoming events</h3>
 					              <ul class="widget-latests list-unstyled">
 					                <li>
-					                  <a href="single-event.html"><img src="images/event/pembersihan_sungai.jpg" alt="Post thumbnail"></a>
-					                  <h4>Gerakan Sosial Pembersihan Sungai Jakarta Berasama Pemerintah Kota</h4>
-					                  <p>Ayo ikut dalam pembersihan Jakarta yang disponsori oleh PEMKOT DKI</p>
-					                  <span><span class="icon icon-calendar"></span>3 Hari Lagi</span>
-					                  <span><span class="icon icon-location"></span> Jakarta</span></p>
-					                  <a href="single-event_2.php" class="btn btn-default widget-btn">Read More</a>
+					                  <a href="single-event.html"><img src="images/event/gerak_jalan_2.jpg" alt="Post thumbnail"></a>
+					                  <h4>Gerak Jalan Bersama Indomie</h4>
+					                  <p>Ayo Ikut Gerak Jalan yang disponsori Indomie</p>
+					                  <span><span class="icon icon-calendar"></span>Besok</span>
+					                  <span><span class="icon icon-location"></span> Depok</span></p>
+					                  <a href="single-event.php" class="btn btn-default widget-btn">Read More</a>
 					                </li>
 					               
 					              </ul>

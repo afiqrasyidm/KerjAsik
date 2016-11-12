@@ -231,7 +231,7 @@
 						<!-- END SERVICE -->
 						<li>
 							<div class="slide">
-								<span  class="fa fa-usd fa-2x" aria-hidden="true" ></span>
+								<span  class="fa  fa-money fa-2x" aria-hidden="true" ></span>
 								<h3>Dapat Uang</h3>
 								<p>Dengan mendaftar salah satu pekerjaan kamu bisa mendapatkan uang dengan mudah dan menyenangkan</p>
 							</div>

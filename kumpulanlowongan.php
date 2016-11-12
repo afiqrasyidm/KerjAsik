@@ -70,6 +70,10 @@
 															echo 		"<div class='event-data'>";
 															echo 			"<p><span class='icon icon-calendar'></span>".$row["tanggal_tutup_daftar"]."</p>";
 															echo 			"<p><span class='icon icon-location'></span> ".$row["lokasi"]."</p>";
+															
+															
+															echo 			"<p><span class='fa fa-money ' aria-hidden='true'></span>100rb/hari</p>";
+
 															echo 		"</div>";
 															
 															

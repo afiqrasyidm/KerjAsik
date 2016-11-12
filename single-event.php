@@ -22,6 +22,8 @@
 							    <div class="event-date">
 									<p><span class="icon icon-calendar"></span> Besok</p>
 									<P><span class="icon icon-location"></span> Kedoya Raya, Beiji, Depok</p>
+									<p><span class="fa fa-money" aria-hidden="true"></span>100rb/hari</p>
+		
 							    </div>
 							    <div class="event-content">
 								    <p><span class="dropcap">L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut tellus sit amet nisl dapibus iaculis. Etiam varius neque justo, id venenatis lorem cursus nec. Pellentesque tincidunt eros sit amet eleifend molestie. Curabitur a diam ligula. Mauris vulputate justo quis sodales eleifend. Curabitur sit amet sem pellentesque, pulvinar quam nec, eleifend lorem. Duis nulla orci, vestibulum vitae semper ac, gravida nec dui. Sed dignissim libero fermentum magna scelerisque eleifend. Duis consectetur bibendum elit, sed viverra ligula fermentum sed. Integer vel magna nec magna volutpat molestie. Nam sit amet rutrum est. Cras lectus mi, ornare sed nulla eget, rutrum venenatis neque. Proin massa diam, posuere ut aliquam ut, consectetur nec diam. Sed euismod lorem dapibus nulla convallis, in fermentum lectus mollis. Nam ultricies condimentum dui a lobortis. Vivamus ultricies venenatis purus.
@@ -97,7 +99,8 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 					                  <h4>Gerakan Sosial Pembersihan Sungai Jakarta Berasama Pemerintah Kota</h4>
 					                  <p>Ayo ikut dalam pembersihan Jakarta yang disponsori oleh PEMKOT DKI</p>
 					                  <span><span class="icon icon-calendar"></span>3 Hari Lagi</span>
-					                  <span><span class="icon icon-location"></span> Jakarta</span></p>
+					                  <span><span class="icon icon-location"></span> Jakarta</span>
+									  <span><span class="fa fa-money" aria-hidden="true"></span> 200rb/hari</span></p>
 					                  <a href="single-event-sungai.php" class="btn btn-default widget-btn">Read More</a>
 					                </li>
 					               

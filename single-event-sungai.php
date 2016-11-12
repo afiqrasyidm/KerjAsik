@@ -37,7 +37,7 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 									</br>
 								</br>
 									<div id = "progressContainer">
-										<h3 id = "jumlahPendaftaran">40/100 telah mendaftar</h3>
+										<h3 id = "jumlahPendaftaran">40 dari 100 telah mendaftar</h3>
 									
 										</br>
 										</br>										
@@ -55,14 +55,14 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 											<?php
 												$username="";
 												if(isset($_SESSION["userlogin"])){
-													echo "<a  href='selamat.php' class='btn btn-default widget-btn'>Ikut</a>";
+													echo "<a  href='selamat.php' id='tombolIkut' class='btn btn-default widget-btn'>Ikut</a>";
 												}
 												else{
 													$href = "javascript:void(0)";
 													$dataToggle = "modal";
 													$onClick ="openLoginModal()";
 													
-													echo "<a  class='btn btn-default widget-btn' data-toggle=".$dataToggle." href=".$href." onclick=".$onClick.">Ikut</a>";
+													echo "<a  class='btn btn-default widget-btn' id='tombolIkut' data-toggle=".$dataToggle." href=".$href." onclick=".$onClick.">Ikut</a>";
 												}
 												
 											
@@ -94,8 +94,8 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 					              <ul class="widget-latests list-unstyled">
 					                <li>
 					                  <a href="single-event.html"><img src="images/event/gerak_jalan_2.jpg" alt="Post thumbnail"></a>
-					                  <h4>Gerak Jalan Bersama Indomie</h4>
-					                  <p>Ayo Ikut Gerak Jalan yang disponsori Indomie</p>
+					                  <h4>Gerak Jalan Bersama DEPOKMIE</h4>
+					                  <p>Ayo Ikut Gerak Jalan yang disponsori DEPOKMIE</p>
 					                  <span><span class="icon icon-calendar"></span>Besok</span>
 					                  <span><span class="icon icon-location"></span> Depok</span></p>
 					                  <a href="single-event.php" class="btn btn-default widget-btn">Read More</a>

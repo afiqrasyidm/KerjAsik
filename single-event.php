@@ -7,7 +7,7 @@
 				<!-- SECTION TITLE -->
 				<div class="section-header">
 					<div class="container">
-						<h1>Gerak Jalan Bersama Indomie</h1>
+						<h1>Gerak Jalan Bersama DEPOKMIE</h1>
 					</div>
 				</div>
 				<!-- SECTION CONTENT -->
@@ -37,7 +37,7 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 									</br>
 								</br>
 									<div id = "progressContainer">
-										<h3 id = "jumlahPendaftaran">70/100 telah mendaftar</h3>
+										<h3 id = "jumlahPendaftaran">70 dari 100 telah mendaftar</h3>
 									
 										</br>
 										</br>										
@@ -55,14 +55,14 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 											<?php
 												$username="";
 												if(isset($_SESSION["userlogin"])){
-													echo "<a  href='selamat.php' class='btn btn-default widget-btn'>Ikut</a>";
+													echo "<a  href='selamat.php' id='tombolIkut' class='btn btn-default widget-btn'>Ikut</a>";
 												}
 												else{
 													$href = "javascript:void(0)";
 													$dataToggle = "modal";
 													$onClick ="openLoginModal()";
 													
-													echo "<a  class='btn btn-default widget-btn' data-toggle=".$dataToggle." href=".$href." onclick=".$onClick.">Ikut</a>";
+													echo "<a  class='btn btn-default widget-btn' id='tombolIkut' data-toggle=".$dataToggle." href=".$href." onclick=".$onClick.">Ikut</a>";
 												}
 												
 											

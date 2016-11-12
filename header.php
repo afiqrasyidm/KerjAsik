@@ -96,7 +96,7 @@
 										
 										
 												  <li class='dropdown'>
-													  <a class='dropdown-toggle' data-toggle='dropdown' href='#'> Halo ".$username."
+													  <a class='dropdown-toggle' data-toggle='dropdown' href='#'> Halo, ".$username."
 													  <span class='caret'></span></a>
 													  <ul class='dropdown-menu' id='dm'>
 														<li ><a href='profil.php'  style='color:black;'  >Profil</a></li>
@@ -137,18 +137,20 @@
 									?>
 					
 												
-							
-							   <li class="dropdown">
-								  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Daftar
-								  <span class="caret"></span></a>
-								  <ul class="dropdown-menu" id="dm">
-									<li ><a data-toggle="modal" href="javascript:void(0)" style="color:black;"   onclick="openRegisterPemberiBeasiswaModal();" >Pekerja Asik</a></li>
-									<li><a id="dm2"  data-toggle="modal" href="javascript:void(0)" style="color:black;" onclick="openRegisterPencariBeasiswaModal();" >Pencari Pekerja Asik</a></li>
+						<?php	
+							if(!isset($_SESSION["userlogin"])){
+							 echo"  <li class='dropdown'>
+								  <a class='dropdown-toggle' data-toggle='dropdown' href='#'>Daftar
+								  <span class='caret'></span></a>
+								  <ul class='dropdown-menu' id='dm'>
+									<li ><a data-toggle='modal' href='javascript:void(0)' style='color:black;'   onclick='openRegisterPemberiBeasiswaModal();' >Pekerja Asik</a></li>
+									<li><a id='dm2'  data-toggle='modal' href='javascript:void(0)' style='color:black;' onclick='openRegisterPencariBeasiswaModal();' >Pencari Pekerja Asik</a></li>
 								  </ul>
-								</li>
+								</li>";
 							
 							
-							
+							}
+						?>
 							
 							
 							

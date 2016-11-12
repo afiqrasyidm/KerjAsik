@@ -70,7 +70,7 @@ DELETE FROM Pekerja_Asik WHERE id=6;
 DELETE FROM Pekerja_Asik WHERE id=7;
 DELETE FROM Pekerja_Asik WHERE id=9;
 
-DELETE FROM Pencari_Pekerja_Asik WHERE id=9;
+DELETE FROM Pencari_Pekerja_Asik WHERE id=2;
 
 
 CREATE TABLE Pekerja_Yang_Mendaftar(

@@ -147,7 +147,8 @@
 									<li><a id='dm2'  data-toggle='modal' href='javascript:void(0)' style='color:black;' onclick='openRegisterPencariBeasiswaModal();' >Pencari Pekerja Asik</a></li>
 								  </ul>
 								</li>";
-							
+								
+								
 							
 							}
 						?>

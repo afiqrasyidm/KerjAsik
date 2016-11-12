@@ -8,6 +8,7 @@
 	
 	
 	if(isset($_POST['usernameBaru2'])){
+		header("Refresh:0");
 		//echo "asdasdsad";
 		$username = $_POST['usernameBaru2'];
 		$password = $_POST['passwordBaru2'];
@@ -38,9 +39,20 @@
 		if($cek){
 	
 			$result = $conn->query($sql);
+				$_SESSION["userlogin"] = $username ;
+				$_SESSION["user_id"] = "0";
+				
+			
+		
 		
 		}
 		$conn->close();
+			echo "<script>
+
+				history.go(0);
+				window.location.href='index.php'
+				</script>
+				";
 	}
 	
 	
@@ -64,7 +76,7 @@ http://codepen.io/axpro/pen/eIkAm
 						<div class="box">
 							<div class="content registerPencariBeasiswaBox" style="display:none;">
 								<div class="form">
-									<form method="POST"  action="" accept-charset="UTF-8">
+									<form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>" accept-charset="UTF-8">
 									
 									
 									<input id="email" class="form-control" type="text" placeholder="Email" name="emailBaru2">

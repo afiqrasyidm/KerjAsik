@@ -17,6 +17,7 @@
 
 		$nomorHP = $_POST['nomorHP1'];
 
+			header('Location: index.php');
 		
 		$pekerjaan = $_POST['pekerjaan'];
 		$instansi = $_POST['instansi'];
@@ -39,9 +40,19 @@
 		if($cek){
 	
 			$result = $conn->query($sql);
+			$_SESSION["userlogin"] = $username ;
+			$_SESSION["user_id"] = "1";
 		
 		}
 		$conn->close();
+		echo "<script>
+
+				history.go(0);
+				window.location.href='index.php'
+				</script>
+				";
+			
+		
 	}
 	
 	
@@ -49,6 +60,7 @@
 
 	
 ?>
+
 		
 		<!--This is a comment. Comments are not displayed in the browser
 		<h2>Insert Account</h2>
@@ -66,7 +78,7 @@ http://codepen.io/axpro/pen/eIkAm
 						<div class="box">
 							<div class="content registerBox" style="display:none;">
 								<div class="form">
-									<form method="post"  action="" accept-charset="UTF-8">
+									<form method="post"  action="<?php echo $_SERVER['PHP_SELF'];?>" accept-charset="UTF-8">
 															
 									<input id="email" class="form-control" type="text" placeholder="Email" name="emailBaru1">
 									<input id="fullname" class="form-control" type="text" placeholder="fullname" name="nama1">

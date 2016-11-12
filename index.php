@@ -4,35 +4,27 @@
 	<span class="sequence-prev" ></span>
 	<span class="sequence-next" ></span>
 	<ul class="sequence-canvas">
-	    <li class="animate-in" style="background-image: url('images/slider/1.jpg');">
+	    <li class="animate-in" style="background-image: url('images/slider/1.gif');">
 		   	<div class="slide-content">
 				<div class="center">
-					<h1>Disini Semuanya Asik</h1>
+					<h1>Disini semuanya asik</h1>
 					<h2>Tak ada kerjaan seasik ini!</h2>					
-					<a href="#" class="btn btn-default">Cari kerja asik</a>					
+					<a href="kumpulanlowongan.php" class="btn btn-default"><h4>Cari Pekerjaan Asik</h4></a>				
 				</div>
 		   	</div>
 	    </li>
-		<li class="animate-in" style="background-image: url('images/slider/2.jpg');">
+		<li class="animate-in" style="background-image: url('images/slider/2.gif');">
 			<div class="slide-content">
-				<h1>Apa Itu Kerja Asik?</h1>
+				<h1>Apa itu pekerjaan asik?</h1>
 				<h3>Describe here your project in a few sentences, to explain to your visitors what you're doing and what you need their help, 
 				or maybe something else </h3>
-				<div class="progress progress-striped">
-				  <div class="progress-bar progress-bar-success" style="width: 80%">
-					<span class="sr-only">Fundraising to realize our Amazing project</span>
-				  </div>
-				</div>
-				<div class="pull-right">
-					<a href="#donation" class="btn btn-default">Help us with a Donation</a>
-				</div>
 			</div>
 		</li>
 	</ul>
 	
 	<ul class="sequence-pagination">
-		<li>Cari kerja asik</li>
-		<li>Apa itu kerja asik?</li>
+		<li>Cari pekerjaan asik</li>
+		<li>Apa itu pekerjaan asik?</li>
 	</ul>
 	</section>
 	<!-- END PROJECT SECTION -->
@@ -41,7 +33,7 @@
 	<section id="blog" class="section with-arrow section-content-colored">
 		<!-- SECTION TITLE -->
 		<div class="section-header with-arrow">
-			<h1>Latest Posts</h1>
+			<h1>Pekerjaan Asik Didekat Anda</h1>
 			<hr>
 		</div>
 		<!-- SECTION CONTENT -->
@@ -142,33 +134,44 @@
 									</div>
 								</div>
 							</div>
-						</li>
-						<!-- LOAD MORE OPTION
-						<li>
-							<div class="slide">
-								<div class="load-more">
-									<div class="content">
-										<a href="#" title="load more">
-											<span class="icon icon-large icon-plus"></span>
-											<h3>Load More Posts</h3>
-										</a>
-									</div>
-								</div>
-							</div>
-						</li>
-						-->
+						</li>						
 					</ul>
 				</div>
+				<!-- SECTION BUTTON -->
+				<div class="center">
+					<a href="kumpulanlowongan.php" class="btn btn-default">Lihat Lebih Banyak Lagi</a>
+				</div>
+				
 			</div>
 		</div>
 	</section>
 	<!-- END BLOG SECTION -->	
+	
+	<!-- START TEAM SECTION -->
+	<section id="team" class="center section with-arrow">
+		<!-- SECTION TITLE -->
+		<div class="section-header">
+			<h1>Apa itu KerjAsik?</h1>
+			<hr>
+		</div>
+		<!-- SECTION CONTENT -->
+		<div class="section-content section-no-top-padding">
+			<div class="container">
+				<h3>We are <span class="colored">64</span> volunteers, All members of <span class="colored">Association Name</span>. Our association find funds,
+				in the purpose of fighting <span class="colored">Your Causes here</span>. We already performed <span class="colored">17</span> projects in 5 continents 
+				during the last <span class="colored">5 years</span>.
+				</h3>
+				<a href="bantuan.php" class="btn btn-default">Hubungi Kami</a>
+			</div>
+		</div>
+	</section>
+	<!-- END TEAM SECTION -->
 			
 	<!-- START SERVICES SECTION -->
 	<section id="services" class="section section-full-colored">
 		<!-- SECTION TITLE -->
 		<div class="section-header">
-			<h1>What We Do</h1>
+			<h1>Apa yang bisa dilakukan di KerjAsik?</h1>
 			<hr>
 		</div>
 		<!-- SECTION CONTENT -->
@@ -214,10 +217,6 @@
 							</div>
 						</li>
 					</ul>
-				</div>
-				<!-- SECTION BUTTON -->
-				<div class="center">
-					<a href="#events" class="btn btn-default">Our Diary</a>
 				</div>
 			</div>
 		</div>

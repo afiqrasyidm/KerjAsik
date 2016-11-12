@@ -4,7 +4,7 @@
 <!-- START FOOTER SECTION -->
 			<section id="footer" class="section section-full-colored">
 				<div class="section-content center">
-					<p>Juntos - Design & Development by <a href="http://2f-design.fr">2F</a></p>
+					<p>Edited By Tim KerjAsik- First Design By Juntos - Design & Development by <a href="http://2f-design.fr">2F</a></p>
 				</div>
 			</section>
 			<!-- END FOOTER SECTION -->

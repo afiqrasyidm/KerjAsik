@@ -1,4 +1,8 @@
 # Juntos
+SEMANGAT!
+
+
+
 Juntos, Free & Open Source One Page Template for Charities and Association of every nation, size and color.
 
 * [Documentation](http://2f-design.fr/juntos/documentation.html "Documentation")

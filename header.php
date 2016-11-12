@@ -24,6 +24,11 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <script src="js/login-register.js"></script>
 	
+	
+    <!-- KALAU MAU KUTAK-KATIK JS DI FILE INI YA -->
+
+	<script src="js/personal.js"></script>
+	
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	
     <!-- MAIN STYLE -->
@@ -41,7 +46,6 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->
    
-	<script src="https://maps.googleapis.com/maps/api/js"></script>
 	
 	</head>
   <!-- START BODY -->

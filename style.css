@@ -1338,5 +1338,22 @@ Edit on
 body {
   background: #e2e1e0;
   text-align: center;
+   padding: 10px;
 }
 
+
+
+/*
+	Progress bar dari https://github.com/kopipejst/progressbar
+	*/
+
+    #progressContainer{
+			width:80%;
+	}
+	#jumlahPendaftaran{
+			width:300px;
+			margin-left:auto;
+			margin-right:auto;
+			
+	}
+	

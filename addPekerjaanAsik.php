@@ -31,9 +31,11 @@
 								  <label>Foto</label>
 								  <input type="file" name="file" />
 								  <br/><br/>
-								  <label>Tanggal Dibuka</label>
+								  <label>Tanggal pekerjaan dilaksanakan</label>
 								  <input type="date" name="buka" class="input-sm" placeholder="YYYY-MM-DD" required/><br/><br/>
-								  <label>Tanggal Ditutup</label>
+							      <label>Tanggal Dibuka Pendaftarn</label>
+								  <input type="date" name="buka" class="input-sm" placeholder="YYYY-MM-DD" required/><br/><br/>
+								  <label>Tanggal Ditutup Pendaftaran</label>
 								  <input type="date" name="tutup" class="input-sm" data-provide="datepicker" placeholder="YYYY-MM-DD" required/><br/><br/>
 								  
 								  <br/>

@@ -212,7 +212,7 @@
 	<section id="services" class="section section-full-colored">
 		<!-- SECTION TITLE -->
 		<div class="section-header">
-			<h1>Apa dilakukan di KerjAsik?</h1>
+			<h1>Apa yang kamu dapatkan di KerjAsik?</h1>
 			<hr>
 		</div>
 		<!-- SECTION CONTENT -->

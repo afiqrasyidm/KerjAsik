@@ -219,10 +219,12 @@ ul.list-icon li:before{
 	color: #FFF;
 }
 #logo{
+	margin-top:-50px;
 	position: absolute;
 }
 #logo img{
-	height: 34px;
+	
+	height: 175px;
 	width: auto;
 }
 #menu{

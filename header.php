@@ -61,7 +61,7 @@
 				<nav id="navigation">
 					<div class="container">
 						<!-- LOGO GOES HERE -->
-						<a href="#" id="logo"><img src="images/logo.png" alt="Logo Image"></a>
+						<a href="#" id="logo"><img src="images/logo.png"  height="42" width="42" alt="Logo Image"></a>
 						<!-- MENU -->
 						<nav>
 							<ul id="menu">

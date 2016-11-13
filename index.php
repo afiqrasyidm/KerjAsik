@@ -15,8 +15,9 @@
 	    </li>
 		<li class="animate-in" style="background-image: url('images/slider/1.gif');">
 			<div class="slide-content">
-				<h1>Apa itu Pekerjaan Asik</h1>
-				<h3> Pekerjaan asik merupakan pekerjaan yang tergolong singkat, mudah dikerjakan, dan bisa dikerjakan tanpa harus menghilangkan pekerjaan utama.
+				<h1>Apa itu KerjAsik</h1>
+				<h3> KerjAsik adalah website crowdsourcing yang mempertemukan para pembuat proyek sosial, acara,  perusahaan, peneliti dan lain sebagainya 
+					dengan para pekerja (Pekerja Asik) untuk saling bergotong royong untuk menyelesaikan suatu pekerjaan.
 					</h3>
 			</div>
 		</li>
@@ -24,7 +25,7 @@
 	
 	<ul class="sequence-pagination">
 		<li>Cari pekerjaan asik</li>
-		<li>Apa itu pekerjaan asik?</li>
+		<li>Apa itu KerjAsik?</li>
 	</ul>
 	</section>
 	<!-- END PROJECT SECTION -->
@@ -193,14 +194,13 @@
 	<section id="team" class="center section with-arrow">
 		<!-- SECTION TITLE -->
 		<div class="section-header">
-			<h1>Apa itu KerjAsik?</h1>
+			<h1>Apa itu Pekerjaan Asik?</h1>
 			<hr>
 		</div>
 		<!-- SECTION CONTENT -->
 		<div class="section-content section-no-top-padding">
 			<div class="container">
-				<h3>KerjAsik adalah website crowdsourcing yang mempertemukan para pembuat proyek sosial, acara,  perusahaan, peneliti dan lain sebagainya 
-					dengan para pekerja (Pekerja Asik) untuk saling membantu
+				<h3>Pekerjaan Asik adalah pekerjaan yang dapat dilakukan dengan mudah, cepat, dan menghasilkan uang yang pekerjaannya didaftarkan oleh pencari pekerja asik.
 				</h3>
 				<a href="bantuan.php" class="btn btn-default">Hubungi Kami</a>
 			</div>
@@ -225,7 +225,7 @@
 							<div class="slide">
 								<span class="icon icon-large icon-thumbs-up"></span>
 								<h3>Pekerjaan Asik</h3>
-								<p>Disini banyak pekerjaan yang mudah dan cepat, sehingga pekerjaan yang kamu lakukan dijamin asik dan menyenangkan!</p>
+								<p>Disini banyak pekerjaan yang mudah dan cepat, sehingga pekerjaan yang kamu lakukan dijamin asik!</p>
 							</div>
 						</li>
 						<!-- END SERVICE -->

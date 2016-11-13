@@ -58,7 +58,8 @@
 
 															
 															
-															
+															//		echo 	"<img  class='images' src='images/".$row["foto_iklan"]."' alt='Gambar'>";
+														
 														
 															
 															

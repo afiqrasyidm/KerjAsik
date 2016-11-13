@@ -27,8 +27,36 @@ CREATE TABLE Pekerjaan_Asik (
 	FOREIGN KEY (id_pencari_pekerja_asik) REFERENCES kerjasik.Pencari_Pekerja_Asik(id)  ON DELETE CASCADE
 );
 
-INSERT INTO Pekerjaan_Asik (id_pencari_pekerja_asik, deskripsi, tanggal_buka_daftar, tanggal_tutup_daftar, lokasi, jumlah_pekerja, judul  )
-VALUES('1', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged', '2016-10-10', '2016-10-11', 'depok', '11', 'GERAK JALAN IS THE BEST');
+INSERT INTO Pekerjaan_Asik (id_pencari_pekerja_asik, deskripsi, lokasi ,jumlah_pekerja, judul, foto_iklan, tanggal_buka_daftar, tanggal_tutup_daftar  )
+VALUES('1', 'Ayo ikut Gerak jalan', 'depok', '11', 'Gerak Jalan Bersama DepokMie', 'uploads/foto1.jpg','2016-10-10','2016-10-10');
+
+
+INSERT INTO Pekerjaan_Asik (id_pencari_pekerja_asik, deskripsi, lokasi ,jumlah_pekerja, judul, foto_iklan, tanggal_buka_daftar, tanggal_tutup_daftar  )
+VALUES('1', 'Ayo ikut Gerak jalan', 'depok', '11', 'Gerak Jalan Santai di Depok', 'uploads/foto2.jpg','2016-10-10','2016-10-10');
+
+INSERT INTO Pekerjaan_Asik (id_pencari_pekerja_asik, deskripsi, lokasi ,jumlah_pekerja, judul, foto_iklan, tanggal_buka_daftar, tanggal_tutup_daftar  )
+VALUES('1', 'Ayo ikut Gerak jalan', 'depok', '11', 'Gerak Jalan Santai saat Car Free Day', 'uploads/foto3.jpg','2016-10-10','2016-10-10');
+
+INSERT INTO Pekerjaan_Asik (id_pencari_pekerja_asik, deskripsi, lokasi ,jumlah_pekerja, judul, foto_iklan, tanggal_buka_daftar, tanggal_tutup_daftar  )
+VALUES('1', 'Ayo ikut Pembersihan kali ciliwung', 'depok', '11', 'Pembersihan kali ciliwung', 'uploads/foto4.jpg','2016-10-10','2016-10-10');
+
+INSERT INTO Pekerjaan_Asik (id_pencari_pekerja_asik, deskripsi, lokasi ,jumlah_pekerja, judul, foto_iklan, tanggal_buka_daftar, tanggal_tutup_daftar  )
+VALUES('1', 'Ayo tanam 1000 pohon dibali', 'depok', '11', 'Aksi Tanam 1000 Pohon di Bali', 'uploads/foto5.jpg','2016-10-10','2016-10-10');
+
+INSERT INTO Pekerjaan_Asik (id_pencari_pekerja_asik, deskripsi, lokasi ,jumlah_pekerja, judul, foto_iklan, tanggal_buka_daftar, tanggal_tutup_daftar  )
+VALUES('1', 'Ayo ikut penelitan untuk skripsi', 'depok', '11', 'Survey Penelitian Untuk Skripsi', 'uploads/foto6.jpg','2016-10-10','2016-10-10');
+
+INSERT INTO Pekerjaan_Asik (id_pencari_pekerja_asik, deskripsi, lokasi ,jumlah_pekerja, judul, foto_iklan, tanggal_buka_daftar, tanggal_tutup_daftar  )
+VALUES('1', 'Kamu kreatif? ayo jadi panitia acara ini', 'depok', '11', 'Panitia acara kreatif', 'uploads/foto7.jpg','2016-10-10','2016-10-10');
+
+INSERT INTO Pekerjaan_Asik (id_pencari_pekerja_asik, deskripsi, lokasi ,jumlah_pekerja, judul, foto_iklan, tanggal_buka_daftar, tanggal_tutup_daftar  )
+VALUES('1', 'Ayo ikut flashmob produk Mie', 'depok', '11', 'Flashmob produk Depok Mie', 'uploads/foto8.jpg','2016-10-10','2016-10-10');
+
+INSERT INTO Pekerjaan_Asik (id_pencari_pekerja_asik, deskripsi, lokasi ,jumlah_pekerja, judul, foto_iklan, tanggal_buka_daftar, tanggal_tutup_daftar  )
+VALUES('1', 'Sosial tweet day untuk pelarangan merokok', 'depok', '11', 'Sosial Tweet Day', 'uploads/foto9.jpg','2016-10-10','2016-10-10');
+
+INSERT INTO Pekerjaan_Asik (id_pencari_pekerja_asik, deskripsi, lokasi ,jumlah_pekerja, judul, foto_iklan, tanggal_buka_daftar, tanggal_tutup_daftar  )
+VALUES('1', 'Ayo Jadi duta kehutanan', 'depok', '11', 'Duta Kehutanan', 'uploads/foto10.jpg','2016-10-10','2016-10-10');
 
 
 ALTER TABLE Pekerjaan_asik ADD jumlah_yang_daftar int;
@@ -87,7 +115,8 @@ INSERT INTO Pekerja_Yang_Mendaftar (id_pekerjaan_asik, id_pekerja_asik )VALUES( 
 
 INSERT INTO Pekerja_Yang_Mendaftar (id_pekerjaan_asik, id_pekerja_asik )VALUES( 1,2 );
 
-
+DELETE FROM Pekerja_Yang_Mendaftar WHERE id=1;
+DELETE FROM Pekerja_Yang_Mendaftar WHERE id=2;
 ----yang perlu ditambah 11-12-2016 --
 
 ALTER TABLE Pekerja_Asik DROP COLUMN deskripsi;

@@ -56,16 +56,10 @@ Phasellus eleifend vestibulum massa, eu vulputate est tristique at. Curabitur vi
 																	
 											<?php
 												$username="";
-												if(isset($_SESSION["userlogin"])){
+												if(true){
 													echo "<a  href='selamat.php' id='tombolIkut' class='btn btn-default widget-btn'>Ikut</a>";
 												}
-												else{
-													$href = "javascript:void(0)";
-													$dataToggle = "modal";
-													$onClick ="openLoginModal()";
-													
-													echo "<a  class='btn btn-default widget-btn' id='tombolIkut' data-toggle=".$dataToggle." href=".$href." onclick=".$onClick.">Ikut</a>";
-												}
+												
 												
 											
 											?>

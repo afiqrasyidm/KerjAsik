@@ -69,7 +69,7 @@
 								<li><a href="kumpulanlowongan.php">Pekerjaan Asik</a></li>
 								<?php
 								session_start();
-								if(isset($_SESSION["userlogin"]) and $_SESSION["user_id"] == "1"){
+								 if(true){
 									echo "<li><a href='addPekerjaanasik.php'>Buat Pekerjaan Asik</a></li>";
 								}
 								?>
@@ -85,6 +85,7 @@
 									
 									<?php
 										$username="";
+										
 										if(isset($_SESSION["userlogin"])){
 											
 											
